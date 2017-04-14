@@ -1,6 +1,8 @@
 
 <img src='http://www.kudosdata.com/wp-content/uploads/2016/11/cropped-KudosLogo1.png' width=20% style="float: right;">
+
 # Workshop Blog Installation Guide
+
 ### http://www.KudosData.com
 
 
@@ -9,6 +11,7 @@
 # Option 1: Easy Installation
 
 ### Download a virtual machine (VM about 1.5 GB), which contains this workshop notebook.
+To be announced...
 
 ### Install Virtualbox tool to use above virtual machine, if you don't have this software.
 https://www.virtualbox.org/wiki/Downloads
@@ -24,6 +27,7 @@ https://www.virtualbox.org/wiki/Downloads
 # Option 2: Advanced Installation (Native installation without VM)
 
 ### Install Anaconda3 (This software includes many useful tools: Python3, Jupyter Notebook, pip)
+https://www.continuum.io/downloads
 
 ### Install WeChat API package: wxpy manually for python2.7
 
