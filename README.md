@@ -1,15 +1,38 @@
 
+# A workshop to use an intelligent and interactive chat-bot in WeChat
+### WehChat is a popular social media app, which has more than 700 million monthly active users.
+### http://www.KudosData.com
 
 <img src='http://www.kudosdata.com/wp-content/uploads/2016/11/cropped-KudosLogo1.png' width=20% style="float: right;">
-# Workshop Blog Installation Guide
-### http://www.KudosData.com
 
 by: Sam.Gu@KudosData.com
 
 
 April 2017
 
+
+### We shall look at functionalities in several progressive sessions:
+
+### session 1:
+* place holder
+* place holder
+* place holder
+
+### session 2:
+* place holder
+* place holder
+* place holder
+
+### session 3:
+* place holder
+* place holder
+* place holder
+
+
+
 ---
+
+# 1st step: Install environment for this WeChat workshop blog:
 
 # Option 1: Use Cloud Platform (Difficulty level: Easy, like being a boss)
 
@@ -22,7 +45,7 @@ April 2017
 !git clone https://github.com/telescopeuser/workshop_blog.git
 
 
-%load workshop_blog/setup_cloud.py (run the cell twice: 1st to load WeChat API installtion code; 2nd to install/)
+%load workshop_blog/setup_cloud.py (run the cell twice: 1st to load WeChat API installtion code; 2nd to install.)
 
 
 ### [Environment setup is now completed, Yeah~]
