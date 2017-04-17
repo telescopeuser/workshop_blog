@@ -1,7 +1,7 @@
 
 # 如何使用和开发微信聊天机器人的系列教程
 # A workshop to use an intelligent and interactive chat-bot in WeChat
-### WehChat is a popular social media app, which has more than 700 million monthly active users.
+### WeChat is a popular social media app, which has more than 700 million monthly active users.
 
 ### http://www.KudosData.com
 
