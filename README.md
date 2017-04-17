@@ -55,8 +55,10 @@ April 2017
 * Create an account in Google Cloud Platform (GCP), using Cloud Console
 * Start Datalab (Jupyter python notebook) in GCP Compute Engine, using Cloud Shell
 * Create a new notebook from datalab folder, then run below two command in notebook cell:
-        !git clone https://github.com/telescopeuser/workshop_blog.git
-        %load workshop_blog/setup_cloud.py
+    > !git clone https://github.com/telescopeuser/workshop_blog.git
+
+    > %load workshop_blog/setup_cloud.py
+
 
 ### Option 2 下载虚拟机: Use a Virtual Machine to run in your own computer 
 ### (Difficulty level: Medium, as bribing your colleague)
@@ -72,9 +74,12 @@ April 2017
 * Install Anaconda (This software includes many useful tools: Python, Jupyter Notebook, pip) https://www.continuum.io/downloads
 * Install Anaconda (This software includes many useful tools: Python, Jupyter Notebook, pip) https://www.continuum.io/downloads
 * Install WeChat API package for Anaconda / python
-         pip install -U html
-         pip install -U qrcode
-         pip install -U itchat
+    > pip install -U html
+    
+    > pip install -U qrcode
+    
+    > pip install -U itchat
+    
 * Download workshop python notebook code from Github: https://github.com/telescopeuser/workshop_blog.git
 * Start Jupyter Notebook (Here I use Git Bash command line tool)
 * Open a web browser if it's not started automatically. Go to url: http://localhost/tree
