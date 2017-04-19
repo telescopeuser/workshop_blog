@@ -22,67 +22,64 @@
 
 # In[ ]:
 
-get_ipython().system(u'python --version')
+get_ipython().system('python --version')
 
 
 # In[ ]:
 
-get_ipython().system(u'pip install -U html')
+get_ipython().system('pip install -U html')
 
 
 # In[ ]:
 
-get_ipython().system(u'pip install -U pyqrcode')
+get_ipython().system('pip install -U pyqrcode')
 
 
 # In[ ]:
 
-get_ipython().system(u'pip install -U config')
+get_ipython().system('pip install -U config')
 
 
 # In[ ]:
 
-get_ipython().system(u'pip install -U backports.tempfile')
+get_ipython().system('pip install -U backports.tempfile')
 
-
-# ### Download and install WeChat API-1
 
 # In[ ]:
 
-# !yes | pip uninstall wxpy
-# !rm -rf wxpy
-# !git clone https://github.com/telescopeuser/wxpy.git
-# !cp -r wxpy/* .
-# !python setup.py install
+get_ipython().system('mv docs org_docs')
 
 
 # ### Download and install WeChat API-2
 
 # In[ ]:
 
-get_ipython().system(u'yes | pip uninstall itchat')
-get_ipython().system(u'rm -rf ItChat')
-get_ipython().system(u'git clone https://github.com/telescopeuser/ItChat.git')
-get_ipython().system(u'cp -r ItChat/* .')
-get_ipython().system(u'python setup.py install')
+get_ipython().system('yes | pip uninstall itchat')
+get_ipython().system('rm -rf ItChat')
+get_ipython().system('git clone https://github.com/telescopeuser/ItChat.git')
+get_ipython().system('cp -r ItChat/* .')
+get_ipython().system('python setup.py install')
 
 
 # ### Housekeeping after installation
 
 # In[ ]:
 
-get_ipython().system(u'rm -rf itchat')
-get_ipython().system(u'rm -rf ItChat')
-get_ipython().system(u'rm -rf wxpy')
-get_ipython().system(u'rm -rf README*')
-get_ipython().system(u'rm -rf LICENSE')
-get_ipython().system(u'rm -rf MANIFEST*')
-get_ipython().system(u'rm -rf mkdocs*')
-get_ipython().system(u'rm -rf build')
-get_ipython().system(u'rm -rf dist')
-get_ipython().system(u'rm -rf requirements.txt')
-get_ipython().system(u'rm -rf setup.py')
-get_ipython().system(u'rm -rf *.egg-info')
+get_ipython().system('rm -rf itchat')
+get_ipython().system('rm -rf ItChat')
+get_ipython().system('rm -rf wxpy')
+get_ipython().system('rm -rf README*')
+get_ipython().system('rm -rf LICENSE')
+get_ipython().system('rm -rf MANIFEST*')
+get_ipython().system('rm -rf mkdocs*')
+get_ipython().system('rm -rf build')
+get_ipython().system('rm -rf dist')
+get_ipython().system('rm -rf docs*')
+get_ipython().system('rm -rf requirements.txt')
+get_ipython().system('rm -rf setup.py')
+get_ipython().system('rm -rf *.egg-info')
+
+get_ipython().system('mv org_docs docs')
 
 
 # ### If above importing has no error, then installation is successful.
@@ -101,5 +98,6 @@ print('+------------------------------------------------------------------------
 
 
 # In[ ]:
+
 
 

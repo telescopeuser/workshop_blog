@@ -1,4 +1,6 @@
 
+Firstly, please open this README document using your own web browser: https://github.com/telescopeuser/workshop_blog
+
 # 如何使用和开发微信聊天机器人的系列教程
 # A workshop to develop & use an intelligent and interactive chat-bot in WeChat
 
@@ -12,16 +14,15 @@
 by: Sam.Gu@KudosData.com
 
 
-April 2017 ============= Scan the QR code to become trainer's friend in WeChat ===========>>
+April 2017 ========== Scan the QR code to become trainer's friend in WeChat ========>>
 
 <img src='http://www.wechat-help.com/wp-content/uploads/2016/01/Main_WeChat-3.png' width=100% style="float: left;">
 
-### Gratitude to Google, for providing free tier cloud platform with fancy machine learning capabilities in Google Datalab.
-https://cloud.google.com/datalab/docs/quickstarts
+### 感谢谷歌提供免费和强大的云平台和机器智能引擎：https://cloud.google.com/products/machine-learning/
+Gratitude to Google, for providing free tier cloud platform with fancy machine learning capabilities
 
-### Gratitude to Python WeChat package ItChat, for making APIs between Python and WeChat.
-https://github.com/littlecodersh/ItChat
-
+### 感谢ItChat工作组提供的微信程序接口：https://github.com/littlecodersh/ItChat
+Gratitude to ItChat team, for Python-WeChat communication API
 
 ---
 
@@ -70,16 +71,36 @@ https://github.com/littlecodersh/ItChat
 
 ### 选择1：使用云平台
 ### Option 1: Use Cloud Platform (Difficulty level: Easy, like being a boss)
-* Create an account in Google Cloud Platform (GCP), using Cloud Console
-* Start Datalab (Jupyter python notebook) in GCP Compute Engine, using Cloud Shell
-* Create a new notebook from datalab folder, then run below two command in notebook cell:
-    > !git clone https://github.com/telescopeuser/workshop_blog.git
+Create an account in Google Cloud Platform (GCP)
+* Complete GCP Registration: https://cloud.google.com/free/ <--- In case you are lost here, quick guide: https://cloud.google.com/getting-started/
+* Go to GCP Console: https://console.cloud.google.com/home
+* Create a new project: **kudosdata01** (zone **asia-east1-b**)
+* Enable GCP Compute Engine API for new project, using GCP API Manager
 
-    > %load workshop_blog/setup_cloud.py
+Start Datalab (Jupyter python notebook) using Cloud Shell
+* Create/Connect a GCP Compute Engine virtual machine to use Datalab: kudosdata01-vm-datalab-workshop <--- In case you are lost here, quick guide: https://cloud.google.com/datalab/docs/quickstarts
+  
+  > gcloud projects list
+  
+  > gcloud config set core/project **kudosdata01**
+  
+  > gcloud config set compute/zone **asia-east1-b**
+
+  > datalab create **kudosdata01-vm-datalab-workshop** --zone **asia-east1-b** [1st time for creation]
+
+  > datalab connect **kudosdata01-vm-datalab-workshop** [2nd time for connection]
+
+  > datalab stop **kudosdata01-vm-datalab-workshop** [stop VM after use]        
+* Open Datalab in web browser, then create a new notebook from datalab folder, then run below two command in notebook cell:
+
+  > !git clone https://github.com/telescopeuser/workshop_blog.git
+
+  > %load workshop_blog/setup_cloud.py
+        
 
 ### 选择2：下载使用虚拟机
 ### Option 2: Use a Virtual Machine to run in your own computer (Difficulty level: Medium, as bribing your colleague)
-* Download a virtual machine (VM about 1.5 GB), which contains this workshop notebook. [Download Link TBC]
+* Download a virtual machine (VM about 1.5 GB), which contains this workshop notebook. [Download Link to be announced]
 * Install Virtualbox tool to use above virtual machine, if you don't have this software. https://www.virtualbox.org/wiki/Downloads
 * Start to run the VM using Virtualbox
 * Open a web browser, go to url: https://8080-dot-2326097-dot-devshell.appspot.com/tree
@@ -87,15 +108,16 @@ https://github.com/littlecodersh/ItChat
 
 ### 选择3：本地电脑安装
 ### Option 3: Use your own computer (Difficulty level: High, as what you normally do)
-* Install Anaconda (This software includes many useful tools: Python, Jupyter Notebook, pip) https://www.continuum.io/downloads
+* Install Anaconda3 (This software includes many useful tools: Python3, Jupyter Notebook, pip) https://www.continuum.io/downloads
 * Install Git & Git Bash https://git-scm.com/downloads
 * Install WeChat API package for Anaconda / python
-    > pip install -U html
-    
-    > pip install -U qrcode
-    
-    > pip install -U itchat
-    
+
+  > pip install -U html
+  
+  > pip install -U qrcode
+  
+  > pip install -U itchat
+  
 * Download workshop python notebook code from Github: https://github.com/telescopeuser/workshop_blog.git
 * Start Jupyter Notebook (Here I use Git Bash command line tool)
 * Open a web browser if it's not started automatically. Go to url: http://localhost/tree
