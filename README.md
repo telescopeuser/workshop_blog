@@ -1,7 +1,10 @@
 
 Firstly, please open this README document using your own web browser: https://github.com/telescopeuser/workshop_blog
 
-# 如何使用和开发微信聊天机器人的系列教程
+
+### 配套视频教程的链接：?????????? (即将发布)
+
+# [零基础] 使用和开发微信聊天机器人的系列教程
 # A workshop to develop & use an intelligent and interactive chat-bot in WeChat
 
 ### WeChat is a popular social media app, which has more than 800 million monthly active users.
@@ -28,10 +31,10 @@ Gratitude to ItChat team, for Python-WeChat communication API
 
 ## 1. 教程大纲 Workshop Content
 
-### 第一课：使用微信问答机制
+### 第一课：微信问答机制使用基础
 ### Lesson 1: Basic usage of WeChat Python API
 * 使用和开发微信个人号聊天机器人：一种Python编程接口 (Use WeChat Python API)
-* 用微信App扫QR码图片来自动登录 (Log-in, contact scan, and processing of text, image, file, video, etc)
+* 用微信App "扫一扫" QR码图片来自动登录 (Log-in, contact scan, and processing of text, image, file, video, etc)
 * 查找指定联系人或群组 (Scan ccontact list)
 * 发送信息（文字、图片、文件、音频、视频等） (Send message: text, image, file, voice, video, etc)
 * 接收信息 (Receive message, and keep 'listening')
@@ -43,7 +46,7 @@ Gratitude to ItChat team, for Python-WeChat communication API
 * 识别图片消息中的物体名字 (Recognize objects in image)
 * 识别图片消息中的文字 (OCR: Extract text from image)
 * 识别人脸 (Recognize human face)
-* 基于人脸的表情来识别喜怒哀乐等情绪 (Identify semtiment and emotion from human face)
+* 基于人脸的表情来识别喜怒哀乐等情绪 (Identify sentiment and emotion from human face)
 
 ### 第三课：自然语言处理
 ### Lesson 3: Natural Language Processing
@@ -103,7 +106,7 @@ Start Datalab (Jupyter python notebook) using Cloud Shell
 * Download a virtual machine (VM about 1.5 GB), which contains this workshop notebook. [Download Link to be announced]
 * Install Virtualbox tool to use above virtual machine, if you don't have this software. https://www.virtualbox.org/wiki/Downloads
 * Start to run the VM using Virtualbox
-* Open a web browser, go to url: https://8080-dot-2326097-dot-devshell.appspot.com/tree
+* Open a web browser, go to url: https://127.0.0.1/tree
 * Update/pull latest workshop python notebooks from Github: https://github.com/telescopeuser/workshop_blog.git
 
 ### 选择3：本地电脑安装
