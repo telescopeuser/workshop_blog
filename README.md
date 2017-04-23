@@ -4,11 +4,12 @@ Firstly, please open this README document using your own web browser: https://gi
 
 ### 配套视频教程的链接:
 * YouTube https://youtu.be/W-ZsWqcl1_c
-* 优酷 
+* 优酷 (To be announced)
 
 
-# [零基础] 使用和开发微信聊天机器人的系列教程
-# A workshop to develop & use an intelligent and interactive chat-bot in WeChat
+# [零基础] 系列教程：如何开发微信聊天机器人并集成高级人工智能应用
+
+### Workshop series: How to embed advanced machine intelligence into a chatbot for social media App WeChat, using Google cloud and machine learning APIs
 
 ### WeChat is a popular social media app, which has more than 800 million monthly active users.
 
