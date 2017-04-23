@@ -2,7 +2,10 @@
 Firstly, please open this README document using your own web browser: https://github.com/telescopeuser/workshop_blog
 
 
-### 配套视频教程的链接：?????????? (即将发布)
+### 配套视频教程的链接:
+* YouTube https://youtu.be/W-ZsWqcl1_c
+* 优酷 
+
 
 # [零基础] 使用和开发微信聊天机器人的系列教程
 # A workshop to develop & use an intelligent and interactive chat-bot in WeChat
@@ -50,8 +53,8 @@ Gratitude to ItChat team, for Python-WeChat communication API
 
 ### 第三课：自然语言处理
 ### Lesson 3: Natural Language Processing
-* 消息文字转成语音 (Speech recognition: voice -> text)
-* 语音转换成消息文字 (Speech synthesis: text -> voice)
+* 消息文字转成语音 (Speech synthesis: text to voice)
+* 语音转换成消息文字 (Speech recognition: voice to text)
 * 消息文字的多语言互译 (Text based language translation)
 
 ### 第四课：视频识别和处理
@@ -81,7 +84,7 @@ Create an account in Google Cloud Platform (GCP)
 * Enable GCP Compute Engine API for new project, using GCP API Manager
 
 Start Datalab (Jupyter python notebook) using Cloud Shell
-* Create/Connect a GCP Compute Engine virtual machine to use Datalab: kudosdata01-vm-datalab-workshop <--- In case you are lost here, quick guide: https://cloud.google.com/datalab/docs/quickstarts
+* Create/Connect a GCP Compute Engine virtual machine to use Datalab: **kudosdata01-vm-datalab-workshop** <--- In case you are lost here, quick guide: https://cloud.google.com/datalab/docs/quickstarts
   
   > gcloud projects list
   
