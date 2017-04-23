@@ -21,7 +21,7 @@ Firstly, please open this README document using your own web browser: https://gi
 by: **Sam Gu** [ Data Science Trainer @ 酷豆数据科学 ]
 
 
-April 2017  ========== Scan the QR code to add me in WeChat ========>>
+April 2017  ====== Scan the QR code to add me in WeChat ====>>
 
 
 <img src='http://www.wechat-help.com/wp-content/uploads/2016/01/Main_WeChat-3.png' width=100% style="float: left;">
