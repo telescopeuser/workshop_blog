@@ -4,24 +4,25 @@ Firstly, please open this README document using your own web browser: https://gi
 
 ### 配套视频教程的链接:
 * YouTube https://youtu.be/W-ZsWqcl1_c
-* 优酷 (To be announced)
+* 优酷 [To be announced]
 
 
-# [零基础] 系列教程：如何开发微信聊天机器人并集成高级人工智能应用
-
-### Workshop series: How to embed advanced machine intelligence into a chatbot for social media App WeChat, using Google cloud and machine learning APIs
+# [零基础系列教程] 如何开发微信聊天机器人并集成深度人工智能应用
+# Workshop series: How to embed advanced machine intelligence into a chatbot for social media App WeChat, using Google cloud and machine learning APIs
 
 ### WeChat is a popular social media app, which has more than 800 million monthly active users.
 
-<img src='http://www.kudosdata.com/wp-content/uploads/2016/11/cropped-KudosLogo1.png' width=30% style="float: right;">
-<img src='wechat_tool/reference/WeChat_SamGu_QR.png' width=10% style="float: right;">
+<img align="right" src='http://www.kudosdata.com/wp-content/uploads/2016/11/cropped-KudosLogo1.png' width=30%>
+
+<img align="right" src='wechat_tool/reference/WeChat_SamGu_QR.png' width=10%>
 
 ### http://www.KudosData.com
 
 by: **Sam Gu** [ Data Science Trainer @ 酷豆数据科学 ]
 
 
-April 2017 ========== Scan the QR code to become my friend in WeChat ========>>
+April 2017  ========== Scan the QR code to add me in WeChat ========>>
+
 
 <img src='http://www.wechat-help.com/wp-content/uploads/2016/01/Main_WeChat-3.png' width=100% style="float: left;">
 
@@ -38,12 +39,12 @@ Gratitude to ItChat team, for Python-WeChat communication API
 ### 第一课：微信问答机制使用基础
 ### Lesson 1: Basic usage of WeChat Python API
 * 使用和开发微信个人号聊天机器人：一种Python编程接口 (Use WeChat Python API)
-* 用微信App "扫一扫" QR码图片来自动登录 (Log-in, contact scan, and processing of text, image, file, video, etc)
-* 查找指定联系人或群组 (Scan ccontact list)
+* 用微信App "扫一扫" QR码图片来自动登录 (Log-in WeChat account)
+* 查找指定联系人或群聊 (Scan contact list)
 * 发送信息（文字、图片、文件、音频、视频等） (Send message: text, image, file, voice, video, etc)
 * 接收信息 (Receive message, and keep 'listening')
 * 自动回复 (Receive message and then automaticaly reply)
-* 自定义复杂消息处理，例如：信息存档、回复群组中被@的消息 (Advanced message processing and reply)
+* 自定义复杂消息处理，例如：信息存档、回复群聊中被@的消息 (Advanced message processing and reply)
 
 ### 第二课：图像识别和处理
 ### Lesson 2: Image Recognition & Processing
