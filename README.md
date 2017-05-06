@@ -48,10 +48,20 @@ Gratitude to ItChat team, for Python-WeChat communication API
 
 ### 第二课：图像识别和处理
 ### Lesson 2: Image Recognition & Processing
+
 * 识别图片消息中的物体名字 (Recognize objects in image)
+        [1] 物体名 (General Object)
+        [2] 地标名 (Landmark Object)
+        [3] 商标名 (Logo Object)
+
 * 识别图片消息中的文字 (OCR: Extract text from image)
+        包含简单文本翻译 (Call text translation API)
+        
 * 识别人脸 (Recognize human face)
-* 基于人脸的表情来识别喜怒哀乐等情绪 (Identify sentiment and emotion from human face)
+        基于人脸的表情来识别喜怒哀乐等情绪 (Identify sentiment and emotion from human face)
+
+* 不良内容识别 (Explicit Content Detection)
+
 
 ### 第三课：自然语言处理
 ### Lesson 3: Natural Language Processing
