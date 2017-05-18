@@ -82,6 +82,13 @@ get_ipython().system('rm -rf *.egg-info')
 get_ipython().system('mv org_docs docs')
 
 
+get_ipython().system('pip install -U google-api-python-client')
+get_ipython().system('pip install -U gTTS')
+get_ipython().system('apt-get update -y')
+get_ipython().system('apt-get install libav-tools -y')
+get_ipython().system('avconv -version')
+
+
 # ### If above importing has no error, then installation is successful.
 
 # # You are now ready to rock! Go to folder: workshop_blog/wechat_tool, open Notebook and follow...
