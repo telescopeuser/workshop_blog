@@ -3,8 +3,17 @@ Firstly, please open this README document using your own web browser: https://gi
 
 
 ### 配套视频教程的链接:
-* YouTube https://youtu.be/W-ZsWqcl1_c
-* 优酷 [To be announced]
+
+
+YouTube
+* [第一课] https://youtu.be/W-ZsWqcl1_c
+* [第二课] https://youtu.be/FPgo-hI7OiE
+* [第三课] [To be announced]
+* [第四课] [To be announced]
+* [第五课] [To be announced]
+
+
+优酷 [To be announced]
 
 
 # [零基础系列教程] 如何开发微信聊天机器人并集成深度人工智能应用
@@ -26,11 +35,9 @@ April 2017  ====== Scan the QR code to add me in WeChat ====>>
 
 <img src='http://www.wechat-help.com/wp-content/uploads/2016/01/Main_WeChat-3.png' width=100% style="float: left;">
 
-### 感谢谷歌提供免费和强大的云平台和机器智能引擎：https://cloud.google.com/products/machine-learning/
-Gratitude to Google, for providing free tier cloud platform with fancy machine learning capabilities
-
-### 感谢ItChat工作组提供的微信程序接口：https://github.com/littlecodersh/ItChat
-Gratitude to ItChat team, for Python-WeChat communication API
+Acknowledgement
+* 谷歌提供的云平台和机器智能引擎：https://cloud.google.com/products/machine-learning/
+* ItChat工作组提供的微信程序接口：https://github.com/littlecodersh/ItChat
 
 ---
 
