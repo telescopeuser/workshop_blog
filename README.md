@@ -8,7 +8,7 @@ Firstly, please open this README document using your own web browser: https://gi
 YouTube
 * [第一课] https://youtu.be/W-ZsWqcl1_c
 * [第二课] https://youtu.be/FPgo-hI7OiE
-* [第三课] [To be announced]
+* [第三课] https://youtu.be/yZV-XCSmWQY
 * [第四课] [To be announced]
 * [第五课] [To be announced]
 
