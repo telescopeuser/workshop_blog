@@ -4,7 +4,7 @@ Firstly, please open this README document using your own web browser: https://gi
 
 ### 配套视频教程的链接:
 
-<img align="right" src='wechat_tool/reference/video_tn1.jpg' width=30%>
+<img align="right" src='wechat_tool/reference/video_tn1.jpg' width=50%>
 
 YouTube
 * [第一课] https://youtu.be/W-ZsWqcl1_c
