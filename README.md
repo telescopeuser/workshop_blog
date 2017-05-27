@@ -83,7 +83,7 @@ Acknowledgement
 * 消息文字中名称实体的识别 (Name-Entity detection)
 * 消息文字中语句的情感分析 (Sentiment analysis, Sentence level)
 * 整篇消息文字的情感分析 (Sentiment analysis, Document level)
-* 语句的语法分析 (Syntax / Grammer analysis)
+* 语句的语法分析 (Syntax / Grammar analysis)
 
 ### 第五课：视频识别和处理
 ### Lesson 5: Video Recognition & Processing
