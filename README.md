@@ -109,10 +109,9 @@ Acknowledgement
 * Start the VM using Virtualbox. Virtualbox free download: https://www.virtualbox.org/wiki/Downloads
 * Open a web browser, go to url: 
 
-> To use python 2: http://127.0.0.1:8080/tree
+  > To use python 2: http://127.0.0.1:8080/tree
 
-
-> To use python 3: http://127.0.0.1:8082/tree
+  > To use python 3: http://127.0.0.1:8082/tree
 
 * Update/pull latest workshop python notebooks from Github: https://github.com/telescopeuser/workshop_blog.git
 
