@@ -87,12 +87,12 @@ Acknowledgement
 
 ### 第五课：视频识别和处理
 ### Lesson 5: Video Recognition & Processing
-* 识别视频消息中的物体名字 (Recognize objects in video)
-* 识别视频的场景 (Detect scenery in video)
+* 识别视频的场景片段 (Detect shots change in video)
+* 识别视频消息中的物体名字 (Recognize objects in video/shots)
 * 直接搜索视频内容 (Search content in video)
 
 ### 第六课：互动智能机器人应用
-### Lesson 6 Intelligent & Interactive Chat-bot Applications
+### Lesson 6: Intelligent & Interactive Chat-bot Applications
 * 多语言翻译器 (Language translator)
 * 图文多媒体的订阅和点播 (Multi-media broadcast & on-demand subscription)
 * 文章的概括和缩写 (Automatic article summary)
