@@ -11,7 +11,7 @@ YouTube
 * [第二课] https://youtu.be/FPgo-hI7OiE
 * [第三课] https://youtu.be/yZV-XCSmWQY
 * [第四课] https://youtu.be/4m44aPkLY2k
-* [第五课] [To be announced]
+* [第五课] https://youtu.be/leVZjVahdKs
 * [第六课] [To be announced]
 
 
