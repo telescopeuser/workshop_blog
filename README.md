@@ -120,7 +120,13 @@ Acknowledgement
 Create an account in Google Cloud Platform (GCP)
 * Complete GCP Registration: https://cloud.google.com/free/ <--- In case you are lost here, quick guide: https://cloud.google.com/getting-started/
 * Go to GCP Console: https://console.cloud.google.com/home
-* Create a new project: **kudosdata01** (zone **asia-east1-b**)
+* Create a new project: 
+  > project id: **kudosdata01** [This is uniquie GCP project-id, which you MUST change to your own id.]
+
+  > project name: **kudosdata01** [You MAY change to your own name.]
+
+  > zone: **asia-east1-b** [Choose a data center near your location.]
+  
 * Enable GCP Compute Engine API for new project, using GCP API Manager
 
 Start Datalab (Jupyter python notebook) using Cloud Shell
@@ -128,7 +134,7 @@ Start Datalab (Jupyter python notebook) using Cloud Shell
   
   > gcloud projects list
   
-  > gcloud config set core/project **kudosdata01**
+  > gcloud config set core/project **kudosdata01** [your own unique project-id]
   
   > gcloud config set compute/zone **asia-east1-b**
 
