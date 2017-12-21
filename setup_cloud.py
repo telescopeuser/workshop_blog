@@ -1,4 +1,4 @@
-
+﻿
 # coding: utf-8
 
 # # Workshop Installation Guide
@@ -85,7 +85,11 @@ get_ipython().system('mv org_docs docs')
 get_ipython().system('pip install -U google-api-python-client')
 get_ipython().system('pip install -U gTTS')
 get_ipython().system('apt-get update -y')
-get_ipython().system('apt-get install libav-tools -y')
+
+# 21 Dec 2017: update: '--allow-unauthenticated', thanks to: MENG EN
+# get_ipython().system('apt-get install libav-tools -y')
+get_ipython().system('apt-get install libav-tools -y --allow-unauthenticated')
+
 get_ipython().system('avconv -version')
 
 
