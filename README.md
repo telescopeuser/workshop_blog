@@ -23,7 +23,7 @@ YouTube
 
 ### WeChat is a popular social media app, which has more than 800 million monthly active users.
 
-<img align="right" src='wechat_tool/reference/logo.png' width=10%>
+<img align="right" src='wechat_tool/reference/logo.png' width=12%>
 
 <img align="right" src='wechat_tool/reference/WeChat_SamGu_QR.png' width=10%>
 
@@ -35,7 +35,7 @@ by: **Sam Gu** [ Data Science Trainer @ 酷豆数据科学 ]
 April 2017  ====== Scan the QR code to add me in WeChat ====>>
 
 
-<img src='http://www.wechat-help.com/wp-content/uploads/2016/01/Main_WeChat-3.png' width=100% style="float: left;">
+<img src='wechat_tool/reference/WeChat.png' width=100% style="float: left;">
 
 Acknowledgement
 * 谷歌提供的云平台和机器智能引擎：https://cloud.google.com/products/machine-learning/
@@ -177,9 +177,9 @@ https://www.iss.nus.edu.sg/about-us/staff/detail/201/Sam%20GU
 
 <img src='./wechat_tool/reference/WeChat_SamGu_Profile.png' width=100% style="float: left;">
 
-## 欢迎报考 新加坡国立大学 人工智能 硕士学位
-## Welcome to apply for graduate study in National University of Singapore!
+## 欢迎报考 新加坡国立大学 人工智能 硕士学位 !
+## Welcome to pursue Artificial Intelligence master degree from National University of Singapore !
 
-*“The History of every major Galactic Civilization tends to pass through three distinct and recognizable phases, those of Survival, Inquiry and Sophistication, otherwise known as the How, Why, and Where phases. For instance, the first phase is characterized by the question 'How can we eat?' the second by the question 'Why do we eat?' and the third by the question 'Where shall we have lunch?”*
+  > *The History of every major Galactic Civilization tends to pass through three distinct and recognizable phases, those of Survival, Inquiry and Sophistication, otherwise known as the How, Why, and Where phases. For instance, the first phase is characterized by the question 'How can we eat?' the second by the question 'Why do we eat?' and the third by the question 'Where shall we have lunch?'*
 
-*from < The Restaurant at the End of the Universe > & < The Hitchhiker's Guide to the Galaxy > by Douglas Adams*
+  > *from < The Restaurant at the End of the Universe > & < The Hitchhiker's Guide to the Galaxy > by Douglas Adams*
