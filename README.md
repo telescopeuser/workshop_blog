@@ -18,16 +18,16 @@ YouTube
 优酷 [To be announced]
 
 
-# [零基础系列教程] 如何开发微信聊天机器人并集成深度人工智能应用
+# [ 零基础系列教程 ] 如何开发微信聊天机器人并集成深度人工智能应用
 # Workshop series: How to embed advanced machine intelligence into a chatbot for social media App WeChat, using Google cloud and machine learning APIs
 
 ### WeChat is a popular social media app, which has more than 800 million monthly active users.
 
-<img align="right" src='http://www.kudosdata.com/wp-content/uploads/2016/11/cropped-KudosLogo1.png' width=30%>
+<img align="right" src='wechat_tool/reference/logo.png' width=10%>
 
 <img align="right" src='wechat_tool/reference/WeChat_SamGu_QR.png' width=10%>
 
-### http://www.KudosData.com
+http://www.KudosData.com
 
 by: **Sam Gu** [ Data Science Trainer @ 酷豆数据科学 ]
 
@@ -103,20 +103,17 @@ Acknowledgement
 
 ## 2. 开发环境安装
 
-### 选择1：下载使用酷豆虚拟机
+### 选择1：下载使用虚拟机
 ### Option 1: Use a Virtual Machine to run in your own computer (Difficulty level: Easy, like being a boss)
-* Download a pre-configurated virtual machine, which contains all environment setup and workshop notebooks. [Download Link to be announced]
-* Start the VM using Virtualbox. Virtualbox free download: https://www.virtualbox.org/wiki/Downloads
-* Open a web browser, go to url: 
+* Download a pre-configurated Ubuntu Linux virtual machine (20 GB size), which contains all environment setup: https://github.com/telescopeuser/iss-vm
+* Start the VM using Virtualbox. Free Virtualbox download: https://www.virtualbox.org/wiki/Downloads
+* Click **iss-env-py3 Jupyter** icon on desktop to start Jupyter Notebook
+* Find your favorite filde folder, then git clone/pull this workshop_blog notebooks from Github: https://github.com/telescopeuser/workshop_blog.git
 
-  > To use python 2: http://127.0.0.1:8080/tree
-
-  > To use python 3: http://127.0.0.1:8082/tree
-
-* Update/pull latest workshop python notebooks from Github: https://github.com/telescopeuser/workshop_blog.git
+<img src='https://raw.githubusercontent.com/telescopeuser/iss-vm/master/iss-vm-s6.png' width=100% style="float: left;">
 
 ### 选择2：使用云平台
-### Option 2: Use Cloud Platform (Difficulty level: Medium, as bribing your colleague)
+### Option 2: Use Cloud Platform (Difficulty level: Medium, as nudging your colleague)
 Create an account in Google Cloud Platform (GCP)
 * Complete GCP Registration: https://cloud.google.com/free/ <--- In case you are lost here, quick guide: https://cloud.google.com/getting-started/
 * Go to GCP Console: https://console.cloud.google.com/home
@@ -171,5 +168,14 @@ Start Datalab (Jupyter python notebook) using Cloud Shell
 ## 3. 恭喜您！安装成功了！下一步进入具体课程和实战操作，请打开第一课的笔记本。 Congratulations! After completing one of the installation options, you are now ready to rock! Go to GCP Datalab folder: workshop_blog/wechat_tool, open Notebook and follow...
 
 <img src='./wechat_tool/reference/setup_ref_01.png' width=100% style="float: left;">
+
+---
+
+# What I am doing now?
+Lecture in Institute of Systems Science, National University of Singapore：https://www.iss.nus.edu.sg/about-us/staff/detail/201/Sam%20GU
+
+<img src='./wechat_tool/reference/WeChat_SamGu_Profile.png' width=100% style="float: left;">
+
+# Welcome to apply for graduate study in National University of Singapore!
 
 ---
