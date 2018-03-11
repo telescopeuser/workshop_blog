@@ -108,7 +108,7 @@ Acknowledgement
 * Download a pre-configurated Ubuntu Linux virtual machine (20 GB size), which contains all environment setup: https://github.com/telescopeuser/iss-vm
 * Start the VM using Virtualbox. Free Virtualbox download: https://www.virtualbox.org/wiki/Downloads
 * Click **iss-env-py3 Jupyter** icon on desktop to start Jupyter Notebook
-* Find your favorite filde folder, then git clone/pull this workshop_blog notebooks from Github: https://github.com/telescopeuser/workshop_blog.git
+* Choose your favorite file folder, then git clone/pull workshop_blog notebooks from Github: https://github.com/telescopeuser/workshop_blog.git
 
 <img src='https://raw.githubusercontent.com/telescopeuser/iss-vm/master/iss-vm-s6.png' width=100% style="float: left;">
 
