@@ -169,7 +169,7 @@ Start Datalab (Jupyter python notebook) using Cloud Shell
 
 <img src='./wechat_tool/reference/setup_ref_01.png' width=100% style="float: left;">
 
-### What I am doing now?
+### What am I doing now?
 
 Mostly thinking *where to have lunch* while lecturing in Institute of Systems Science, National University of Singapore:
 
