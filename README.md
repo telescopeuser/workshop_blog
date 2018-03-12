@@ -169,9 +169,9 @@ Start Datalab (Jupyter python notebook) using Cloud Shell
 
 <img src='./wechat_tool/reference/setup_ref_01.png' width=100% style="float: left;">
 
-### What am I doing now?
+### [ March 2018 ] What am I doing now?
 
-Mostly thinking *where to have lunch* while lecturing in Institute of Systems Science, National University of Singapore:
+Most time in thinking 'where to have lunch' while lecturing in Institute of Systems Science, National University of Singapore:
 
 https://www.iss.nus.edu.sg/about-us/staff/detail/201/Sam%20GU
 
@@ -180,12 +180,12 @@ https://www.iss.nus.edu.sg/about-us/staff/detail/201/Sam%20GU
 ## 欢迎报考 新加坡国立大学 人工智能 硕士学位 !
 ## Welcome to pursue Artificial Intelligence master degree from National University of Singapore !
 
----
-
 <img src='wechat_tool/reference/DontPanic.jpg' width=100% style="float: left;">
 
 Image stolen from: https://www.lifegate.it/persone/stile-di-vita/falcon-heavy
 
-  > *The History of every major Galactic Civilization tends to pass through three distinct and recognizable phases, those of Survival, Inquiry and Sophistication, otherwise known as the How, Why, and Where phases. For instance, the first phase is characterized by the question 'How can we eat?' the second by the question 'Why do we eat?' and the third by the question 'Where shall we have lunch?'*
+> *DON'T PANIC!*
 
-  > *from < The Restaurant at the End of the Universe > & < The Hitchhiker's Guide to the Galaxy > by Douglas Adams*
+> *The History of every major Galactic Civilization tends to pass through three distinct and recognizable phases, those of Survival, Inquiry and Sophistication, otherwise known as the How, Why, and Where phases. For instance, the first phase is characterized by the question 'How can we eat?' the second by the question 'Why do we eat?' and the third by the question 'Where shall we have lunch?'*
+
+> *from < The Restaurant at the End of the Universe > & < The Hitchhiker's Guide to the Galaxy > by Douglas Adams*
