@@ -105,12 +105,20 @@ Acknowledgement
 
 ### 选择1：下载使用虚拟机
 ### Option 1: Use a Virtual Machine to run in your own computer (Difficulty level: Easy, like being a boss)
-* Download a pre-configurated Ubuntu Linux virtual machine (20 GB size), which contains all environment setup: https://github.com/telescopeuser/iss-vm
+* Download a pre-configurated Ubuntu Linux virtual machine (25 GB size), which contains all environment setup: https://github.com/telescopeuser/iss-vm
 * Start the VM using Virtualbox. Free Virtualbox download: https://www.virtualbox.org/wiki/Downloads
 * Click **iss-env-py3 Jupyter** icon on desktop to start Jupyter Notebook
 * Choose your favorite file folder, then git clone/pull workshop_blog notebooks from Github: https://github.com/telescopeuser/workshop_blog.git
 
 <img src='https://raw.githubusercontent.com/telescopeuser/iss-vm/master/iss-vm-s6.png' width=100% style="float: left;">
+
+On desktop, click 'Solution WeChat Software Robot' to start the quick demo in terminal, or manually start by command:
+
+$ python workshop_blog/wechat_tool/terminal-script-py/lesson_1_terminal_py3.py
+
+
+
+<img src='wechat_tool/reference/lesson_1_terminal_py3.py-chat-log.png' width=100% style="float: left;">
 
 ### 选择2：使用云平台
 ### Option 2: Use Cloud Platform (Difficulty level: Medium, as nudging your colleague)
