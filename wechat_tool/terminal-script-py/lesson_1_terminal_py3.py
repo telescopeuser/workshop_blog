@@ -97,7 +97,6 @@ itchat.auto_login(enableCmdQR=2) # enableCmdQR=2: 命令行显示QR图片
 # In[ ]:
 
 
-if msg['isAt']:# 获取自己的用户信息，返回自己的属性字典
 friend = itchat.search_friends()
 # print(friend)
 
