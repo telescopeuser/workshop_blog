@@ -6,6 +6,11 @@ Firstly, please open this README document using your own web browser: https://gi
 
 [<img align="right" src='wechat_tool/reference/video_tn1.jpg' width=40%>](https://youtu.be/W-ZsWqcl1_c "Click to play...")
 
+
+母国大陆
+* [全部课] https://space.bilibili.com/17115905/#/video
+
+
 YouTube
 * [第一课] https://youtu.be/W-ZsWqcl1_c
 * [第二课] https://youtu.be/FPgo-hI7OiE
@@ -13,9 +18,6 @@ YouTube
 * [第四课] https://youtu.be/4m44aPkLY2k
 * [第五课] https://youtu.be/leVZjVahdKs
 * [第六课] [To be announced]
-
-
-优酷 [To be announced]
 
 
 # [ 零基础系列教程 ] 如何开发微信聊天机器人并集成深度人工智能应用
