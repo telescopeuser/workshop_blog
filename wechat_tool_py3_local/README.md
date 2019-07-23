@@ -1,13 +1,12 @@
-
 <img src='reference/nus-iss-logo.jpg' width=40% style="float: left;">
-
 
 Firstly, please open this README document using your own web browser: 
 https://github.com/telescopeuser/workshop_blog/tree/master/wechat_tool_py3_local
 
-# <span style="color:red">[ 2018 November 01 ]</span> 
-# <span style="color:red">Here host ipynb lessons supporting Python 3 version on a local machine/computer.</span> 
-
+## <span style="color:red">[ Latest News on 23 JLU 2019 ]</span> 
+## <span style="color:red">JUL 2019 : Added virtual assistant for intelligent process automation.</span> 
+## <span style="color:red">OCT 2018 : Update to support Python 3 in local machine, e.g. iss-vm.</span> 
+## <span style="color:red">APR 2017 : Initial Commit.</span> 
 
 # [ 零基础系列教程 ] 如何开发微信聊天机器人并集成深度人工智能应用
 # Workshop series: How to embed advanced machine intelligence into a chatbot for social media App WeChat, using Google cloud and machine learning APIs
@@ -20,11 +19,7 @@ https://github.com/telescopeuser/workshop_blog/tree/master/wechat_tool_py3_local
 
 by: GU Zhan (Sam)
 
-
-October 2018 : Update to support Python 3 in local machine, e.g. iss-vm.
-
-
-April 2017 ======= Scan the QR code to become trainer's friend in WeChat =====>>
+======= Scan the QR code to become trainer's friend in WeChat =====>>
 
 <img src='reference/WeChat.png' width=100% style="float: left;">
 
