@@ -1,5 +1,5 @@
 
-<img src='reference/nus-iss-logo.jpg' width=50% style="float: left;">
+<img src='reference/nus-iss-logo.jpg' width=40% style="float: left;">
 
 
 Firstly, please open this README document using your own web browser: 
