@@ -17,7 +17,7 @@ YouTube
 * [第三课] https://youtu.be/yZV-XCSmWQY
 * [第四课] https://youtu.be/4m44aPkLY2k
 * [第五课] https://youtu.be/leVZjVahdKs
-* [第六课] [To be announced]
+* [第六课] https://youtu.be/YSL--3j12VA [英语]
 
 
 # [ 零基础系列教程 ] 如何开发微信聊天机器人并集成深度人工智能应用
