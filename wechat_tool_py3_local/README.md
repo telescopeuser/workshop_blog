@@ -3,10 +3,10 @@
 Firstly, please open this README document using your own web browser: 
 https://github.com/telescopeuser/workshop_blog/tree/master/wechat_tool_py3_local
 
-### <span style="color:red">[ Latest News on 23 JUL 2019 ]</span> 
-### <span style="color:red">JUL 2019 : Added virtual assistant for intelligent process automation.</span> 
-### <span style="color:red">OCT 2018 : Update to support Python 3 in local machine, e.g. iss-vm.</span> 
-### <span style="color:red">APR 2017 : Initial Commit.</span> 
+#### <span style="color:red">[ Latest News ]</span> 
+#### <span style="color:red">JUL 2019 : Added virtual assistant for intelligent process automation.</span> 
+#### <span style="color:red">OCT 2018 : Update to support Python 3 in local machine, e.g. iss-vm.</span> 
+#### <span style="color:red">APR 2017 : Initial Commit.</span> 
 
 # [ 零基础系列教程 ] 如何开发微信聊天机器人并集成深度人工智能应用
 # Workshop series: How to embed advanced machine intelligence into a chatbot for social media App WeChat, using Google cloud and machine learning APIs
