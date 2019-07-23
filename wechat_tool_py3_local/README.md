@@ -1,6 +1,5 @@
 
-<img src='https://www.iss.nus.edu.sg/Sitefinity/WebsiteTemplates/ISS/App_Themes/ISS/Images/branding-iss.png' width=15% style="float: right;">
-<img src='https://www.iss.nus.edu.sg/Sitefinity/WebsiteTemplates/ISS/App_Themes/ISS/Images/branding-nus.png' width=15% style="float: right;">
+<img src='reference/nus-iss-logo.jpg' width=15% style="float: right;">
 
 
 Firstly, please open this README document using your own web browser: 
