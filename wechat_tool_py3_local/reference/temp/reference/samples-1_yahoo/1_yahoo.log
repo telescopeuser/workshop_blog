@@ -1,0 +1,24 @@
+
+START - automation started - Tue Oct 16 2018 17:07:43 GMT+0800 (+08)
+https://ca.yahoo.com - Yahoo
+
+NOTE - this sample may not work for EU users due to website changes for GDPR
+EU users may have to modify script to first click on announcement OK button
+
+type search-box as github
+show search-box
+github
+click search-button
+wait 6.6
+snap page
+snap logo
+snap page to results.png
+snap logo to logo.png
+https://duckduckgo.com - DuckDuckGo — Privacy, simplified.
+type search_form_input_homepage as The search engine that doesn't track you.
+snap page to duckduckgo.png
+wait 4.4 seconds
+
+https://duckduckgo.com/ - DuckDuckGo — Privacy, simplified.
+FINISH - automation finished - 20.2s
+

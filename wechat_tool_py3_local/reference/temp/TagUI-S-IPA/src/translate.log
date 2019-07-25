@@ -1,0 +1,48 @@
+https://ca.yahoo.com
+// same as 1_yahoo example but written in chinese
+
+// to run this, edit tagui/src/tagui_config.txt
+// change the following line -
+// var tagui_language = 'english';
+// to below, to choose input language as chinese
+// var tagui_language = 'chinese';
+
+// during automation, the tagui_language variable can
+// be changed to show output in different languages
+tagui_language = 'chinese'
+
+// try setting output to other languages, full list here
+// https://github.com/kelaberetiv/TagUI/tree/master/src/languages
+// https://github.com/kelaberetiv/TagUI#native-languages
+// tagui_language = 'english'
+// tagui_language = 'french'
+type search-box as github sam gu
+show search-box
+click search-button
+wait 6.6
+number = 1
+if number more than or equals to 1
+snap page
+
+echo ''
+echo '~ changing output language to english ~'
+tagui_language = 'english'
+for n from 1 to 3
+snap logo
+text = 'abcde'
+if text contains 'bcd'
+snap page to results.png
+
+echo ''
+echo '~ changing output language to french ~'
+tagui_language = 'french'
+
+https://duckduckgo.com
+type search_form_input_homepage as The search engine that doesn\'t track you.
+snap page to duckduckgo.png
+
+echo ''
+echo '~ changing output language to japanese ~'
+tagui_language = 'japanese'
+wait 4.4 seconds
+

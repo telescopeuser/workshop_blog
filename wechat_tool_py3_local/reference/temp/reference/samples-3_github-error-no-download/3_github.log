@@ -1,0 +1,25 @@
+
+START - automation started - Tue Oct 16 2018 17:44:11 GMT+0800 (+08)
+https://github.com/tebelorg/Tmail - GitHub - tebelorg/Tmail: Mailbot to massmail or act on incoming emails
+
+read (//*[@class="numbers-summary"]/li)[5] to license_type
+Yes, repo is under MIT license.
+click Clone or download
+click Download ZIP
+wait 10 seconds
+api http://services.groupkt.com/country/get/iso2code/SG
+{
+  "RestResponse" : {
+    "messages" : [ "Country found matching code [SG]." ],
+    "result" : {
+      "name" : "Singapore",
+      "alpha2_code" : "SG",
+      "alpha3_code" : "SGP"
+    }
+  }
+}
+Country name - Singapore
+
+https://github.com/tebelorg/Tmail - GitHub - tebelorg/Tmail: Mailbot to massmail or act on incoming emails
+FINISH - automation finished - 14.8s
+

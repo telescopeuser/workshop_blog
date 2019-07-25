@@ -1,0 +1,22 @@
+
+START - automation started - Wed Oct 17 2018 12:22:58 GMT+0800 (+08)
+https://ca.finance.yahoo.com - Yahoo Finance - Business Finance, Stock Market, Quotes, News
+
+read search-buttons to search_button_text
+search button text is wrong
+search button exists
+search box is visible
+read search-buttons to button
+search button text is wrong - 
+url contains 'yahoo'
+title contains 'Finance'
+page text contains My Portfolio
+header menu items >= 6
+count_number = 11
+type uh-search as microsoft
+click //*[@id="search-button"]
+time taken - 0.407 seconds
+step takes lesser than 60 seconds
+wait 13.57 seconds
+read //*[@id="quote-header-info"]//h1 to stock_quote
+ERROR - cannot find //*[@id="quote-header-info"]//h1

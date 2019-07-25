@@ -1,0 +1,11 @@
+
+START - automation started - Wed Oct 17 2018 12:15:20 GMT+0800 (+08)
+https://medium.com/tebelorg - Tebel.Automation – Medium
+
+'+GITHUB_ID+' - '+USER_EMAIL+'
+api your_website_url/mailer.php?APIKEY=unique_key&SUBJECT=Hi @'+GITHUB_ID+'&SENDTO='+USER_EMAIL+'&SENDFROM=Your Name <your_email@gmail.com>&MESSAGE=Your message line 1.<br><br>Your message line 2.
+wait 3 seconds
+
+https://medium.com/tebelorg - Tebel.Automation – Medium
+FINISH - automation finished - 8.4s
+

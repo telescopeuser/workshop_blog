@@ -1,0 +1,6 @@
+
+START - automation started - Wed Oct 17 2018 12:11:42 GMT+0800 (+08)
+[37;41;1mTypeError: Type error                                                           [0m
+  /home/iss-user/iss-vm-program/is-intelligent-process-automation/TagUI/src/phantomjs:/platform/casper.js:[33m484[0m
+  /home/iss-user/iss-vm-program/is-intelligent-process-automation/TagUI/src/phantomjs:/platform/casper.js:[33m484[0m in [36mcheckStarted[0m
+  /home/iss-user/iss-vm-program/is-intelligent-process-automation/TagUI/src/phantomjs:/platform/casper.js:[33m1992[0m in [36mthen[0m

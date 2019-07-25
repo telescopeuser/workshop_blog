@@ -1,0 +1,9 @@
+
+START - automation started - Wed Oct 17 2018 12:24:55 GMT+0800 (+08)
+https://hastebin.com - hastebin
+
+[37;41;1mTypeError: undefined is not an object (evaluating 'filename.substr')            [0m
+  /home/iss-user/iss-vm-program/is-intelligent-process-automation/TagUI/src/phantomjs:/code/8_hastebin.js:[33m840[0m in [36mabs_file[0m
+  /home/iss-user/iss-vm-program/is-intelligent-process-automation/TagUI/src/phantomjs:/code/8_hastebin.js:[33m1339[0m
+  /home/iss-user/iss-vm-program/is-intelligent-process-automation/TagUI/src/phantomjs:/platform/casper.js:[33m1728[0m in [36mrunStep[0m
+  /home/iss-user/iss-vm-program/is-intelligent-process-automation/TagUI/src/phantomjs:/platform/casper.js:[33m453[0m in [36mcheckStep[0m

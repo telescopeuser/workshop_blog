@@ -1,0 +1,41 @@
+
+START - automation started - Wed Oct 17 2018 12:26:20 GMT+0800 (+08)
+http://tebel.org/index_mobile.php - Tebel.Automation
+
+click ABOUT
+popup about_tebel
+show file-about_tebel-LC2
+Hi :) I'm Ken Soh. Tebel.Automation is an open-source company I started, to research & develop software for automating UI interactions. I later moved on to work at AI Singapore (aisingapore.org), to continue TagUI's development there by adding AI capabilities.
+snap file-about_tebel-LC2
+
+returning to original window context
+show (//*[@id="header"]//a)[1]
+•  Interface automation
+dom_result from 1 JavaScript statement - •  Interface automation
+dom_result from multiple statements - •  Interface automation
+dom_result using 1 dom_json variable - •  Interface automation
+dom_result using multiple dom_json variables - •  Interface automation
+dom_result using multiple dom_json variables -     LINKEDIN   /   GITHUB   /   ABOUT
+
+test_number - 123
+test_number - 456
+
+https://github.com/tebelorg/TLE - GitHub - tebelorg/TLE: Helper for data extract-transform-load (ETL)
+test_string - ABC
+show (//table)[3]//td[1]
+user comments
+show (//table)[3]//td[2]
+servername
+show (//table)[3]//td[3]
+username
+show (//table)[3]//td[4]
+password
+show (//table)[3]//td[5]
+database
+show (//table)[3]//td[6]
+tablename
+test_string - DEF
+
+https://github.com/tebelorg/TLE - GitHub - tebelorg/TLE: Helper for data extract-transform-load (ETL)
+FINISH - automation finished - 6.0s
+

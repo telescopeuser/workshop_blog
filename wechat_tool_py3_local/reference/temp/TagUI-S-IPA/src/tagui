@@ -1,0 +1,356 @@
+#!/usr/bin/env bash
+# SCRIPT FOR RUNNING TAGUI FRAMEWORK ~ TEBEL.ORG #
+
+# configure command to launch chrome for Linux (configuration for macOS not required as path is fixed)
+chrome_command="google-chrome"
+
+if [ -z "$1" ]
+then
+echo "tagui v4.1.0: use following syntax and below options to run ./tagui flow_filename option(s)"
+echo
+echo "headless - run on invisible Chrome web browser instead of default PhantomJS (first install Chrome)"
+echo "chrome   - run on visible Chrome web browser instead of invisible PhantomJS (first install Chrome)"
+echo "firefox  - run on visible Firefox web browser instead of invisible PhantomJS (first install Firefox)"
+echo "upload   - upload automation flow and result to hastebin.com (expires 30 days after last view)"
+echo "report   - web report for sharing of run results on webserver (default is only a text log file)"
+echo "debug    - show run-time backend messages from PhantomJS for detailed tracing and logging"
+echo "quiet    - run without output except for explicit output (echo / show / check / errors etc)"
+echo "speed    - skip 3-second delay between datatable iterations (and skip restarting of Chrome)"
+echo "test     - testing with check step test assertions for CI/CD integration (output XUnit XML file)"
+echo "baseline - output execution log and relative-path output files to a separate baseline directory"
+echo "input(s) - add your own parameter(s) to be used in your automation flow as variables p1 to p9"
+echo "data.csv - specify a csv file to be used as the datatable for batch automation of many records"
+echo
+echo "TagUI is a CLI tool for digital process automation (RPA) ~ for more info, google tagui"
+echo
+exit 1
+fi
+
+# download file if first parameter is online resource
+if [[ "$1" == "http"* ]]; then online_flowname=`echo "${1##*/}"`; curl -k -s -o $online_flowname "$1"
+if [ -f "$online_flowname" ]; then if grep -iq "404\|400" "$online_flowname"; then rm "$online_flowname"
+else online_reponame=`echo "${1##*/}.csv"`; curl -k -s -o $online_reponame "$1".csv
+if [ -f "$online_reponame" ]; then if grep -iq "404\|400" "$online_reponame"; then rm "$online_reponame"
+fi;fi;fi;fi; set -- "$online_flowname" "${@:2}"; fi
+
+# check whether specified automation flow file exists
+if ! [ -f "$1" ]; then echo "ERROR - cannot find $1"; exit 1; fi
+
+tagui_baseline_mode=false
+# check baseline parameter to output files to baseline directory
+if [ "$2" = "baseline" ]; then set -- "$1" "${@:3}"; tagui_baseline_mode=true; fi
+if [ "$3" = "baseline" ]; then set -- "${@:1:2}" "${@:4}"; tagui_baseline_mode=true; fi
+if [ "$4" = "baseline" ]; then set -- "${@:1:3}" "${@:5}"; tagui_baseline_mode=true; fi
+if [ "$5" = "baseline" ]; then set -- "${@:1:4}" "${@:6}"; tagui_baseline_mode=true; fi
+if [ "$6" = "baseline" ]; then set -- "${@:1:5}" "${@:7}"; tagui_baseline_mode=true; fi
+if [ "$7" = "baseline" ]; then set -- "${@:1:6}" "${@:8}"; tagui_baseline_mode=true; fi
+if [ "$8" = "baseline" ]; then set -- "${@:1:7}" "${@:9}"; tagui_baseline_mode=true; fi
+if [ "$9" = "baseline" ]; then set -- "${@:1:8}"; tagui_baseline_mode=true; fi
+
+# check baseline option, get and set absolute filename of automation flow file
+if [ "$tagui_baseline_mode" == false ]; then set -- "$(cd "$(dirname "$1")"; pwd)/$(basename "$1")" "${@:2}"
+else if ! [ -d "$(cd "$(dirname "$1")"; pwd)/baseline" ]; then mkdir "$(cd "$(dirname "$1")"; pwd)/baseline"; fi
+cp "$1" "$(cd "$(dirname "$1")"; pwd)/baseline/."
+set -- "$(cd "$(dirname "$1")"; pwd)/baseline/$(basename "$1")" "${@:2}"
+fi
+
+# save location of initial directory where tagui is called
+initial_dir=`pwd`
+
+# change current directory to TAGUI directory
+SOURCE="${BASH_SOURCE[0]}" # slimerjs's implementation instead of cd "`dirname "$0"`"
+while [ -h "$SOURCE" ]; do TAGUI_DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"
+SOURCE="$(readlink "$SOURCE")"; [[ $SOURCE != /* ]] && SOURCE="$TAGUI_DIR/$SOURCE"; done
+TAGUI_DIR="$( cd -P "$( dirname "$SOURCE" )" && pwd )"; cd "$TAGUI_DIR"
+
+# below 3 blocks dynamically set up dependencies paths for different setups
+# first set dependencies to local symbolic links (for manual installation)
+CASPERJS_EXECUTABLE="/usr/local/bin/casperjs"
+export PHANTOMJS_EXECUTABLE="/usr/local/bin/phantomjs"
+export SLIMERJS_EXECUTABLE="/usr/local/bin/slimerjs"
+
+# then set to node.js dependencies if they exist (for npm install tagui)
+if [ -f "$(pwd)/../../casperjs/bin/casperjs" ]; then CASPERJS_EXECUTABLE="$(pwd)/../../casperjs/bin/casperjs"; fi
+if [ -f "$(pwd)/../../phantomjs-prebuilt/bin/phantomjs" ]; then export PHANTOMJS_EXECUTABLE="$(pwd)/../../phantomjs-prebuilt/bin/phantomjs"; fi
+if [ -f "$(pwd)/../../slimerjs/src/slimerjs" ]; then export SLIMERJS_EXECUTABLE="$(pwd)/../../slimerjs/src/slimerjs"; fi
+
+# finally set to packaged dependencies if they exist (for packaged installation)
+if [ -f "$(pwd)/casperjs/bin/casperjs" ]; then CASPERJS_EXECUTABLE="$(pwd)/casperjs/bin/casperjs"; fi
+if [ -f "$(pwd)/phantomjs/bin/phantomjs" ]; then export PHANTOMJS_EXECUTABLE="$(pwd)/phantomjs/bin/phantomjs"; fi
+if [ -f "$(pwd)/slimerjs/slimerjs" ]; then export SLIMERJS_EXECUTABLE="$(pwd)/slimerjs/slimerjs"; fi
+
+# set default web browser to be used to phantomjs
+tagui_web_browser="phantomjs"
+
+# check chrome parameter to run on in-built integration with visible chrome
+if [ "$2" = "chrome" ]; then set -- "$1" "${@:3}"; tagui_web_browser="chrome"; fi
+if [ "$3" = "chrome" ]; then set -- "${@:1:2}" "${@:4}"; tagui_web_browser="chrome"; fi
+if [ "$4" = "chrome" ]; then set -- "${@:1:3}" "${@:5}"; tagui_web_browser="chrome"; fi
+if [ "$5" = "chrome" ]; then set -- "${@:1:4}" "${@:6}"; tagui_web_browser="chrome"; fi
+if [ "$6" = "chrome" ]; then set -- "${@:1:5}" "${@:7}"; tagui_web_browser="chrome"; fi
+if [ "$7" = "chrome" ]; then set -- "${@:1:6}" "${@:8}"; tagui_web_browser="chrome"; fi
+if [ "$8" = "chrome" ]; then set -- "${@:1:7}" "${@:9}"; tagui_web_browser="chrome"; fi
+if [ "$9" = "chrome" ]; then set -- "${@:1:8}"; tagui_web_browser="chrome"; fi
+
+# check headless parameter to run on in-built integration with headless chrome
+if [ "$2" = "headless" ]; then set -- "$1" "${@:3}"; tagui_web_browser="headless"; fi
+if [ "$3" = "headless" ]; then set -- "${@:1:2}" "${@:4}"; tagui_web_browser="headless"; fi
+if [ "$4" = "headless" ]; then set -- "${@:1:3}" "${@:5}"; tagui_web_browser="headless"; fi
+if [ "$5" = "headless" ]; then set -- "${@:1:4}" "${@:6}"; tagui_web_browser="headless"; fi
+if [ "$6" = "headless" ]; then set -- "${@:1:5}" "${@:7}"; tagui_web_browser="headless"; fi
+if [ "$7" = "headless" ]; then set -- "${@:1:6}" "${@:8}"; tagui_web_browser="headless"; fi
+if [ "$8" = "headless" ]; then set -- "${@:1:7}" "${@:9}"; tagui_web_browser="headless"; fi
+if [ "$9" = "headless" ]; then set -- "${@:1:8}"; tagui_web_browser="headless"; fi
+
+# check firefox parameter to run on visible firefox browser through slimerjs
+if [ "$2" = "firefox" ]; then set -- "$1" "--engine=slimerjs" "${@:3}"; tagui_web_browser="firefox"; fi
+if [ "$3" = "firefox" ]; then set -- "${@:1:2}" "--engine=slimerjs" "${@:4}"; tagui_web_browser="firefox"; fi
+if [ "$4" = "firefox" ]; then set -- "${@:1:3}" "--engine=slimerjs" "${@:5}"; tagui_web_browser="firefox"; fi
+if [ "$5" = "firefox" ]; then set -- "${@:1:4}" "--engine=slimerjs" "${@:6}"; tagui_web_browser="firefox"; fi
+if [ "$6" = "firefox" ]; then set -- "${@:1:5}" "--engine=slimerjs" "${@:7}"; tagui_web_browser="firefox"; fi
+if [ "$7" = "firefox" ]; then set -- "${@:1:6}" "--engine=slimerjs" "${@:8}"; tagui_web_browser="firefox"; fi
+if [ "$8" = "firefox" ]; then set -- "${@:1:7}" "--engine=slimerjs" "${@:9}"; tagui_web_browser="firefox"; fi
+if [ "$9" = "firefox" ]; then set -- "${@:1:8}" "--engine=slimerjs"; tagui_web_browser="firefox"; fi
+
+# export web browser variable for use when parsing automation flow
+export tagui_web_browser=$tagui_web_browser
+
+# check debug parameter to show run-time backend messages from phantomjs
+if [ "$2" = "debug" ]; then set -- "$1" "--verbose" "${@:3}"; fi
+if [ "$3" = "debug" ]; then set -- "${@:1:2}" "--verbose" "${@:4}"; fi
+if [ "$4" = "debug" ]; then set -- "${@:1:3}" "--verbose" "${@:5}"; fi
+if [ "$5" = "debug" ]; then set -- "${@:1:4}" "--verbose" "${@:6}"; fi
+if [ "$6" = "debug" ]; then set -- "${@:1:5}" "--verbose" "${@:7}"; fi
+if [ "$7" = "debug" ]; then set -- "${@:1:6}" "--verbose" "${@:8}"; fi
+if [ "$8" = "debug" ]; then set -- "${@:1:7}" "--verbose" "${@:9}"; fi
+if [ "$9" = "debug" ]; then set -- "${@:1:8}" "--verbose"; fi
+
+tagui_test_mode=false; export tagui_test_mode=false
+# check test parameter to run flow as casperjs test automation script
+if [ "$2" = "test" ]; then set -- "$1" "${@:3}"; tagui_test_mode=true; fi
+if [ "$3" = "test" ]; then set -- "${@:1:2}" "${@:4}"; tagui_test_mode=true; fi
+if [ "$4" = "test" ]; then set -- "${@:1:3}" "${@:5}"; tagui_test_mode=true; fi
+if [ "$5" = "test" ]; then set -- "${@:1:4}" "${@:6}"; tagui_test_mode=true; fi
+if [ "$6" = "test" ]; then set -- "${@:1:5}" "${@:7}"; tagui_test_mode=true; fi
+if [ "$7" = "test" ]; then set -- "${@:1:6}" "${@:8}"; tagui_test_mode=true; fi
+if [ "$8" = "test" ]; then set -- "${@:1:7}" "${@:9}"; tagui_test_mode=true; fi
+if [ "$9" = "test" ]; then set -- "${@:1:8}"; tagui_test_mode=true; fi
+
+export tagui_quiet_mode=false
+# check quiet parameter to run flow quietly by only showing explicit output
+if [ "$2" = "quiet" ]; then set -- "$1" "${@:3}"; export tagui_quiet_mode=true; fi
+if [ "$3" = "quiet" ]; then set -- "${@:1:2}" "${@:4}"; export tagui_quiet_mode=true; fi
+if [ "$4" = "quiet" ]; then set -- "${@:1:3}" "${@:5}"; export tagui_quiet_mode=true; fi
+if [ "$5" = "quiet" ]; then set -- "${@:1:4}" "${@:6}"; export tagui_quiet_mode=true; fi
+if [ "$6" = "quiet" ]; then set -- "${@:1:5}" "${@:7}"; export tagui_quiet_mode=true; fi
+if [ "$7" = "quiet" ]; then set -- "${@:1:6}" "${@:8}"; export tagui_quiet_mode=true; fi
+if [ "$8" = "quiet" ]; then set -- "${@:1:7}" "${@:9}"; export tagui_quiet_mode=true; fi
+if [ "$9" = "quiet" ]; then set -- "${@:1:8}"; export tagui_quiet_mode=true; fi
+
+tagui_html_report=false
+# check report parameter to generate html formatted automation log
+if [ "$2" = "report" ]; then set -- "$1" "${@:3}"; tagui_html_report=true; fi
+if [ "$3" = "report" ]; then set -- "${@:1:2}" "${@:4}"; tagui_html_report=true; fi
+if [ "$4" = "report" ]; then set -- "${@:1:3}" "${@:5}"; tagui_html_report=true; fi
+if [ "$5" = "report" ]; then set -- "${@:1:4}" "${@:6}"; tagui_html_report=true; fi
+if [ "$6" = "report" ]; then set -- "${@:1:5}" "${@:7}"; tagui_html_report=true; fi
+if [ "$7" = "report" ]; then set -- "${@:1:6}" "${@:8}"; tagui_html_report=true; fi
+if [ "$8" = "report" ]; then set -- "${@:1:7}" "${@:9}"; tagui_html_report=true; fi
+if [ "$9" = "report" ]; then set -- "${@:1:8}"; tagui_html_report=true; fi
+
+tagui_upload_result=false
+# check upload parameter to upload flow result to online storage
+if [ "$2" = "upload" ]; then set -- "$1" "${@:3}"; tagui_upload_result=true; fi
+if [ "$3" = "upload" ]; then set -- "${@:1:2}" "${@:4}"; tagui_upload_result=true; fi
+if [ "$4" = "upload" ]; then set -- "${@:1:3}" "${@:5}"; tagui_upload_result=true; fi
+if [ "$5" = "upload" ]; then set -- "${@:1:4}" "${@:6}"; tagui_upload_result=true; fi
+if [ "$6" = "upload" ]; then set -- "${@:1:5}" "${@:7}"; tagui_upload_result=true; fi
+if [ "$7" = "upload" ]; then set -- "${@:1:6}" "${@:8}"; tagui_upload_result=true; fi
+if [ "$8" = "upload" ]; then set -- "${@:1:7}" "${@:9}"; tagui_upload_result=true; fi
+if [ "$9" = "upload" ]; then set -- "${@:1:8}"; tagui_upload_result=true; fi
+
+tagui_speed_mode=false
+# check speed parameter to skip delay and chrome restart between iterations
+if [ "$2" = "speed" ]; then set -- "$1" "${@:3}"; tagui_speed_mode=true; fi
+if [ "$3" = "speed" ]; then set -- "${@:1:2}" "${@:4}"; tagui_speed_mode=true; fi
+if [ "$4" = "speed" ]; then set -- "${@:1:3}" "${@:5}"; tagui_speed_mode=true; fi
+if [ "$5" = "speed" ]; then set -- "${@:1:4}" "${@:6}"; tagui_speed_mode=true; fi
+if [ "$6" = "speed" ]; then set -- "${@:1:5}" "${@:7}"; tagui_speed_mode=true; fi
+if [ "$7" = "speed" ]; then set -- "${@:1:6}" "${@:8}"; tagui_speed_mode=true; fi
+if [ "$8" = "speed" ]; then set -- "${@:1:7}" "${@:9}"; tagui_speed_mode=true; fi
+if [ "$9" = "speed" ]; then set -- "${@:1:8}"; tagui_speed_mode=true; fi
+
+# concatenate parameters in order to fix issue when calling casperjs test
+# $1 left out - filenames with spaces have issue when casperjs $params
+params="$2"" ""$3"" ""$4"" ""$5"" ""$6"" ""$7"" ""$8"" ""$9"
+
+# initialise log files and set permissions to protect user data
+echo -n "" > "$1".log; chmod 600 "$1".log
+echo -n "" > tagui_r/tagui_r.log; chmod 600 tagui_r/tagui_r.log
+echo -n "" > tagui_r/tagui_r_windows.log; chmod 600 tagui_r/tagui_r_windows.log
+echo -n "" > tagui_py/tagui_py.log; chmod 600 tagui_py/tagui_py.log
+echo -n "" > tagui_py/tagui_py_windows.log; chmod 600 tagui_py/tagui_py_windows.log
+echo -n "" > tagui.sikuli/tagui.log; chmod 600 tagui.sikuli/tagui.log
+echo -n "" > tagui.sikuli/tagui_windows.log; chmod 600 tagui.sikuli/tagui_windows.log
+echo -n "" > tagui_chrome.log; chmod 600 tagui_chrome.log
+
+# delete R integration files if they exist
+if [ -f "tagui_r/tagui_r.in" ]; then rm tagui_r/tagui_r.in; fi
+if [ -f "tagui_r/tagui_r.out" ]; then rm tagui_r/tagui_r.out; fi
+
+# delete python integration files if they exist
+if [ -f "tagui_py/tagui_py.in" ]; then rm tagui_py/tagui_py.in; fi
+if [ -f "tagui_py/tagui_py.out" ]; then rm tagui_py/tagui_py.out; fi
+
+# delete sikuli visual automation integration files if they exist
+if [ -f "tagui.sikuli/tagui_sikuli.in" ]; then rm tagui.sikuli/tagui_sikuli.in; fi
+if [ -f "tagui.sikuli/tagui_sikuli.out" ]; then rm tagui.sikuli/tagui_sikuli.out; fi
+
+# delete chrome / headless chrome integration files if they exist 
+if [ -f "tagui_chrome.in" ]; then rm tagui_chrome.in; fi
+if [ -f "tagui_chrome.out" ]; then rm tagui_chrome.out; fi
+
+# default exit code 0 to mean no error parsing automation flow file
+tagui_error_code=0
+
+# transpose datatable csv file if file to be transposed exists
+if [ -f "$1_transpose".csv ]; then php -q transpose.php "$1_transpose".csv | tee -a "$1".log; fi
+
+custom_csv_file=NO_CUSTOM_CSV_FILE
+# check if custom csv file is provided to be used as datatable
+if [[ "$2" == *".csv" ]]; then custom_csv_file=$(cd "$(dirname "$1")"; cd "$(dirname "$2")"; pwd)/$(basename "$2"); fi
+if [[ "$3" == *".csv" ]]; then custom_csv_file=$(cd "$(dirname "$1")"; cd "$(dirname "$3")"; pwd)/$(basename "$3"); fi
+if [[ "$4" == *".csv" ]]; then custom_csv_file=$(cd "$(dirname "$1")"; cd "$(dirname "$4")"; pwd)/$(basename "$4"); fi
+if [[ "$5" == *".csv" ]]; then custom_csv_file=$(cd "$(dirname "$1")"; cd "$(dirname "$5")"; pwd)/$(basename "$5"); fi
+if [[ "$6" == *".csv" ]]; then custom_csv_file=$(cd "$(dirname "$1")"; cd "$(dirname "$6")"; pwd)/$(basename "$6"); fi
+if [[ "$7" == *".csv" ]]; then custom_csv_file=$(cd "$(dirname "$1")"; cd "$(dirname "$7")"; pwd)/$(basename "$7"); fi
+if [[ "$8" == *".csv" ]]; then custom_csv_file=$(cd "$(dirname "$1")"; cd "$(dirname "$8")"; pwd)/$(basename "$8"); fi
+if [[ "$9" == *".csv" ]]; then custom_csv_file=$(cd "$(dirname "$1")"; cd "$(dirname "$9")"; pwd)/$(basename "$9"); fi
+if [ "NO_CUSTOM_CSV_FILE" != "$custom_csv_file" ]; then
+if ! [ -f "$custom_csv_file" ]; then echo "ERROR - cannot find $custom_csv_file"; exit 1; fi
+cp "$custom_csv_file" "tagui_datatable_transpose.csv"
+php -q transpose.php "tagui_datatable_transpose.csv" | tee -a "$1".log
+custom_csv_file="$TAGUI_DIR/tagui_datatable.csv"; rm "tagui_datatable_transpose.csv"; fi
+if [ "NO_CUSTOM_CSV_FILE" == "$custom_csv_file" ]; then custom_csv_file=$1.csv; fi
+export custom_csv_file=$custom_csv_file
+
+# check datatable csv file for batch automation
+tagui_data_set_size=1
+if [ -f "$custom_csv_file" ]; then
+# min_column=`awk -F',' '{print NF}' "$custom_csv_file" | sort -nu | head -n 1`
+# max_column=`awk -F',' '{print NF}' "$custom_csv_file" | sort -nu | tail -n 1`
+# below counts the first row, otherwise edge cases will break this
+min_column=`head -n 1 "$custom_csv_file" | awk -F',' '{print NF}'`
+if [ "$min_column" -lt 2 ]; then echo "ERROR - $custom_csv_file has lesser than 2 columns" | tee -a "$1".log
+else tagui_data_set_size="$(($min_column-1))"; fi; fi
+
+# big loop for managing multiple data sets in datatable 
+for (( tagui_data_set=1; tagui_data_set<=$tagui_data_set_size; tagui_data_set++ ))
+do export tagui_data_set=$tagui_data_set
+
+# add delay between repetitions to pace out iterations
+if [ "$tagui_data_set" -ne 1 ] && [ "$tagui_speed_mode" == false ]; then sleep 3; fi
+
+# parse automation flow file, check for initial parse error
+# check R, python, sikuli, chrome, before calling casperjs
+php -q tagui_parse.php "$1" | tee -a "$1".log
+if [ -s "$1".log ] && [ "$tagui_data_set" -eq 1 ]
+then echo "ERROR - automation aborted due to above" | tee -a "$1".log; tagui_error_code=1; break; fi
+
+# check if api call is made in generated js file to set appropriate setting for phantomjs to work
+api=""; if [ -f "$1".js ]; then if grep -iq "api http" "$1".js; then api=" --web-security=false"; fi; fi
+
+# start R process if integration file is created during parsing
+if [ -f "tagui_r/tagui_r.in" ]; then
+Rscript tagui_r/tagui_r.R >> tagui_r/tagui_r.log 2>&1 &
+fi
+
+# start python process if integration file is created during parsing
+if [ -f "tagui_py/tagui_py.in" ]; then
+python -u tagui_py/tagui_py.py >> tagui_py/tagui_py.log 2>&1 &
+fi
+
+# start sikuli process if integration file is created during parsing
+if [ -f "tagui.sikuli/tagui_sikuli.in" ]; then echo "[starting sikuli process]" | tee -a "$1".log
+tagui.sikuli/runsikulix -r tagui.sikuli -d 3 >> tagui.sikuli/tagui.log 2>&1 &
+fi
+
+# start chrome processes if integration file is created during parsing
+chrome_started=""
+if [ -f "tagui_chrome.in" ]; then
+# echo "[starting chrome websocket]" | tee -a "$1".log
+
+# get window size from tagui_config.txt to set for chrome, estimating into account the height of chrome title bar
+width="$(grep width tagui_config.txt | cut -d' ' -f 2)"; height="$(grep height tagui_config.txt | cut -d' ' -f 2)"
+if [ "$tagui_web_browser" == "chrome" ]; then height="$(($height + 74))"; fi; window_size="--window-size=$width$height"
+
+# setting to run chrome in headless mode if headless option is used
+headless_switch=""; if [ "$tagui_web_browser" == "headless" ]; then headless_switch="--headless --disable-gpu"; fi
+
+# skip restarting chrome in speed mode and resuse 1st websocket url
+if [ "$tagui_data_set" -eq 1 ] || [ "$tagui_speed_mode" == false ]; then
+
+# check for which operating system and launch chrome accordingly
+chrome_started="$(uname -s)"; chrome_switches="--user-data-dir=chrome/tagui_user_profile --remote-debugging-port=9222 about:blank"
+if [ "$chrome_started" == "Darwin" ]; then
+if ! [ -f "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome" ]; then
+echo "ERROR - cannot find Chrome at \"/Applications/Google Chrome.app/Contents/MacOS/Google Chrome\""
+echo "Chrome is at a non-standard location on your macOS, raise an issue on TagUI GitHub page"; exit 1; fi
+chrome_process_id="$(ps | grep remote-debugging-port=9222 | grep tagui_user_profile | sed -e 's/^[ ]*//' | cut -d' ' -f 1 | sort -nur | head -n 1)"
+if [ -n "$chrome_process_id" ]; then kill $chrome_process_id; fi
+/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome $chrome_switches $window_size $headless_switch > /dev/null 2>&1 &
+else
+if ! type "$chrome_command" > /dev/null; then
+echo "ERROR - cannot find Chrome command \"$chrome_command\""
+echo "update chrome_command setting in tagui/src/tagui and make sure symlink to command is created"; exit 1; fi
+chrome_process_id="$(ps | grep remote-debugging-port=9222 | grep tagui_user_profile | sed -e 's/^[ ]*//' | cut -d' ' -f 1 | sort -nur | head -n 1)"
+if [ -n "$chrome_process_id" ]; then kill $chrome_process_id; fi
+$chrome_command $chrome_switches $window_size $headless_switch > /dev/null 2>&1 &
+fi
+
+# wait until chrome is ready with websocket url for php thread
+while true; do
+ws_url="$(curl -s localhost:9222/json | grep -A 1 '"url": "about:blank"' | grep webSocketDebuggerUrl | cut -d'"' -f 4)"
+if [ -n "$ws_url" ]; then break; fi; done
+
+# end of if block for restarting chrome process
+fi
+
+# launch php process to manage chrome websocket communications
+php -q tagui_chrome.php $ws_url >> tagui_chrome.log &
+
+# end of if block to start chrome processes
+fi
+
+# check if test mode is enabled and run casperjs accordingly, before sending finish signal if integrations are active
+if [ "$tagui_test_mode" == false ]; then "$CASPERJS_EXECUTABLE" "$1".js $params$api | tee -a "$1".log
+else export tagui_test_mode=true; "$CASPERJS_EXECUTABLE" test "$1".js $params$api --xunit="$1".xml | tee -a "$1".log; fi
+# checking for existence of files is important, otherwise in loops integrations will run even without enabling
+if [ -f "tagui_r/tagui_r.in" ]; then echo "finish" > tagui_r/tagui_r.in; fi
+if [ -f "tagui_py/tagui_py.in" ]; then echo "finish" > tagui_py/tagui_py.in; fi
+if [ -f "tagui.sikuli/tagui_sikuli.in" ]; then echo "finish" > tagui.sikuli/tagui_sikuli.in; fi
+if [ -f "tagui_chrome.in" ]; then echo "finish" > tagui_chrome.in; fi
+
+# kill chrome processes by checking which os the processes are started on 
+if [ "$chrome_started" == "Darwin" ] && [ "$tagui_speed_mode" == false ]; then
+chrome_process_id="$(ps | grep remote-debugging-port=9222 | grep tagui_user_profile | sed -e 's/^[ ]*//' | cut -d' ' -f 1 | sort -nur | head -n 1)"
+if [ -n "$chrome_process_id" ]; then kill $chrome_process_id; fi
+else if [ -n "$chrome_started" ] && [ "$tagui_speed_mode" == false ]; then
+chrome_process_id="$(ps | grep remote-debugging-port=9222 | grep tagui_user_profile | sed -e 's/^[ ]*//' | cut -d' ' -f 1 | sort -nur | head -n 1)"
+if [ -n "$chrome_process_id" ]; then kill $chrome_process_id; fi
+fi; fi
+
+# end of big loop for managing multiple data sets in datatable
+done
+
+# check report option to generate html automation log
+if [ -s "$1".log ] && [ "$tagui_html_report" == true ]; then php -q tagui_report.php "$1"; fi
+
+# check upload option to upload result to hastebin.com
+if [ -s "$1".log ] && [ "$tagui_upload_result" == true ]; then ./tagui samples/8_hastebin quiet "$1"; fi
+
+# change back to initial directory where tagui is called
+cd "$initial_dir"
+
+# returns 0 if no error parsing flow file, otherwise return 1
+exit $tagui_error_code

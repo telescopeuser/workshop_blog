@@ -1,0 +1,28 @@
+
+START - automation started - Wed Oct 17 2018 12:49:01 GMT+0800 (+08)
+https://ca.yahoo.com - Yahoo
+
+输入 search-box 为 github sam gu
+显示 search-box
+github sam gu
+点击 search-button
+等待 6.6
+快照 page
+
+~ changing output language to english ~
+snap logo
+snap logo
+snap logo
+snap page to results.png
+
+~ changing output language to french ~
+https://duckduckgo.com - DuckDuckGo — Privacy, simplified.
+type search_form_input_homepage comme The search engine that doesn't track you.
+casser page à duckduckgo.png
+
+~ changing output language to japanese ~
+待つ 4.4 秒
+
+https://duckduckgo.com/ - DuckDuckGo — Privacy, simplified.
+FINISH - automation finished - 19.1s
+

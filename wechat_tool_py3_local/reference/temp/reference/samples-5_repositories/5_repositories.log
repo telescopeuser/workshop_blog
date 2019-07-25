@@ -1,0 +1,19 @@
+
+START - automation started - Tue Oct 16 2018 18:21:16 GMT+0800 (+08)
+https://vk.com/kensoh - Ken Soh | VK
+
+type quick_email as mickey_mouse@disney.com
+type quick_pass as iloveminnie4eva
+hover Show full information
+wait 2.5
+click Show full information
+wait 2.5
+snap page to vk.png
+hover //*[@id="profile_full"]//a
+wait 2.5
+click //*[@id="profile_full"]//a
+wait
+
+https://vk.com/kensoh - Ken Soh | VK
+FINISH - automation finished - 20.2s
+

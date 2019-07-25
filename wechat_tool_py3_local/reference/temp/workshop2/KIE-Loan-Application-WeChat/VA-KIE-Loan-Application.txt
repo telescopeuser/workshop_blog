@@ -1,0 +1,186 @@
+// =====================================
+// Visual Automation for Desktop KIE Applicaiton: Loan Applicaiton
+// =====================================
+
+
+// =====================================
+// Click to show "Desktop"
+// =====================================
+click png-iss-vm-desktop.png
+wait 1 seconds
+
+// =====================================
+// snap page.png to page010.png
+// =====================================
+
+// =====================================
+// Start KIE jBPM Loan Applicaiton System Server
+// =====================================
+// dclick png-Tool-KIE.png
+// wait 180 seconds
+
+// =====================================
+snap page.png to page020.png
+// =====================================
+
+// =====================================
+// Start Chrome
+// =====================================
+dclick png-iss-vm-chrome.png
+wait 5 seconds
+
+// =====================================
+snap page.png to page030.png
+// =====================================
+
+// =====================================
+// Start KIE jBPM workbench: loan application client web portal
+// =====================================
+click png-iss-vm-chrome-kie-wb.png
+wait 3 seconds
+
+// =====================================
+snap page.png to page040.png
+// =====================================
+
+// =====================================
+// Login with staff username & password
+// =====================================
+vision type("sales-rep" + Key.TAB)
+// wait 1 seconds
+
+// =====================================
+snap page.png to page050.png
+// =====================================
+
+// =====================================
+vision type("sales-rep" + Key.ENTER)
+// =====================================
+wait 15 seconds
+
+// =====================================
+snap page.png to page060.png
+// =====================================
+
+// =====================================
+// KIE: click "Menu"
+// =====================================
+click png-kie-Menu.png
+//wait 1 seconds
+
+// =====================================
+// KIE: click "Process Instances"
+// =====================================
+click png-kie-Menu-ProcessInstances.png
+wait 2 seconds
+
+// =====================================
+snap page.png to page070.png
+// =====================================
+
+// =====================================
+// KIE: click "New Process Instance"
+// =====================================
+click png-kie-Menu-ProcessInstances-NewProcessInstance.png
+wait 1 seconds
+
+
+// =====================================
+// KIE: click "Start (New Process Instance)"
+// =====================================
+click png-kie-Menu-ProcessInstances-NewProcessInstance-Start.png
+wait 1 seconds
+
+
+// =====================================
+snap page.png to page080.png
+// =====================================
+
+// =====================================
+// Fill in loan application form
+// =====================================
+click png-kie-loan-form-DownPayment.png
+type page.png as 50000
+// wait 1 seconds
+
+click png-kie-loan-form-YearsOfAmortization.png
+type page.png as 20
+// wait 1 seconds
+
+click png-kie-loan-form-ApplicantName.png
+type page.png as Sam GU Zhan
+// wait 1 seconds
+
+click png-kie-loan-form-ApplicantAnnualIncome.png
+type page.png as 50000
+// wait 1 seconds
+
+// =====================================
+snap page.png to page090.png
+// =====================================
+
+click png-kie-loan-form-PropertyAge.png
+type page.png as 3
+// wait 1 seconds
+
+click png-kie-loan-form-PropertyAddress.png
+type page.png as 25 Heng Mui Keng Terrace, Singapore 119615
+// wait 1 seconds
+
+click png-kie-loan-form-PropertyLocale.png
+type page.png as URBAN
+// wait 1 seconds
+
+click png-kie-loan-form-PropertySalePrice.png
+type page.png as 250000
+// wait 1 seconds
+
+// =====================================
+// Submit in loan application form
+// =====================================
+click png-kie-loan-form-Submit.png
+wait 3 seconds
+
+// =====================================
+snap page.png to page100.png
+// =====================================
+
+
+
+
+// =====================================
+// [ Optional ] Repeat the above for another new loan applicaiton 
+// =====================================
+// =====================================
+// KIE: click "New Process Instance"
+// =====================================
+click png-kie-Menu-ProcessInstances-NewProcessInstance.png
+wait 2 seconds
+// =====================================
+// KIE: click "x (Cancel New Process Instance)"
+// =====================================
+click png-kie-x-cancel.png
+wait 2 seconds
+
+
+
+// =====================================
+// Logoff KIE jBPM workbench: loan application client web portal
+// =====================================
+click png-kie-UserProfile.png
+click png-kie-UserProfile-LogOut.png
+wait 1 seconds
+
+// =====================================
+snap page.png to page110.png
+// =====================================
+
+// =====================================
+// Close Chrome web browser
+// =====================================
+click png-ubuntu-close.png
+wait 1 seconds
+
+// =====================================
+snap page.png to page120.png
+// =====================================

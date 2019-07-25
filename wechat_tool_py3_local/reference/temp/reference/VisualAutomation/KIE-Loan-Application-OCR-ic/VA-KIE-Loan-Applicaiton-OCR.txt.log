@@ -1,0 +1,15 @@
+[starting sikuli process]
+
+START - automation started - Fri Oct 19 2018 10:22:04 GMT+0800 (+08)
+
+dclick /home/iss-user/iss-vm-program/is-intelligent-process-automation/S-IPA-Workshop/demo/visual_desktop_app_automation/KIE-Loan-Applicaiton-OCR-ic/pdf_IC.png
+wait 2 seconds
+read /home/iss-user/iss-vm-program/is-intelligent-process-automation/S-IPA-Workshop/demo/visual_desktop_app_automation/KIE-Loan-Applicaiton-OCR-ic/page.png to pdf_IC_ocr_text
+wait 2 seconds
+dump pdf_IC_ocr_text to pdf_IC_ocr_text.txt
+wait 2 seconds
+click /home/iss-user/iss-vm-program/is-intelligent-process-automation/S-IPA-Workshop/demo/visual_desktop_app_automation/KIE-Loan-Applicaiton-OCR-ic/png-ubuntu-close.png
+wait 2 seconds
+
+FINISH - automation finished - 27.4s
+

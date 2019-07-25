@@ -1,0 +1,20 @@
+[starting sikuli process]
+
+START - automation started - Thu Jul 25 2019 20:11:39 GMT+0800 (+08)
+
+click /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-desktop.png
+wait 1 seconds
+snap /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png to /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page020.png
+dclick /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome.png
+wait 5 seconds
+snap /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png to /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page030.png
+click /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome-kie-wb.png
+wait 3 seconds
+snap /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png to /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page040.png
+vision type("sales-rep" + Key.TAB)
+snap /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png to /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page050.png
+vision type("sales-rep" + Key.ENTER)
+wait 15 seconds
+snap /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png to /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page060.png
+click /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu.png
+ERROR - cannot find /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu.png on screen
