@@ -100,7 +100,7 @@ def didi_invoke_rpa_bot(rpa_bot_file, rpa_bot = '../reference/S-IPA-Workshop/Tag
 
 
 # Uncomment below lines for an agile demo outside Chat-bot:
-# rpa_bot_file = 'reference/S-IPA-Workshop/workshop3/VisualAutomation/KIE-Loan-Applicaiton-VA-Serverless/VA-KIE-Loan-Applicaiton.txt'
+# rpa_bot_file = '../reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/VA-KIE-Loan-Application.txt'
 # return_code = didi_invoke_rpa_bot(rpa_bot_file)
 
 
@@ -141,7 +141,7 @@ def didi_invoke_rpa_bot_async_upon_completion(ipa_task):
 
 
 # Uncomment below lines for an agile demo outside Chat-bot:
-# rpa_bot_file = 'reference/S-IPA-Workshop/workshop3/VisualAutomation/KIE-Loan-Applicaiton-VA-Serverless/VA-KIE-Loan-Applicaiton.txt'
+# rpa_bot_file = '../reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/VA-KIE-Loan-Application.txt'
 # return_code = didi_invoke_rpa_bot_async(rpa_bot_file)
 
 
@@ -169,10 +169,10 @@ parm_msg = {} # Define a global variable to hold current msg
 
 # Define "keywords intention command -> automation action" lookup to invoke RPA-Bot process automation functions
 parm_bot_intention_action = {
-      '#apply_loan': '../reference/S-IPA-Workshop/workshop3/VisualAutomation/KIE-Loan-Applicaiton-VA-Serverless/VA-KIE-Loan-Applicaiton.txt'
-    , '#ocr_invoice': '../reference/S-IPA-Workshop/workshop3/VisualAutomation/KIE-Loan-Applicaiton-VA-Serverless/VA-KIE-Loan-Applicaiton.txt'
-    , '#check_applicaiton': '../reference/S-IPA-Workshop/workshop3/VisualAutomation/KIE-Loan-Applicaiton-VA-Serverless/VA-KIE-Loan-Applicaiton.txt'
-    , '#hi_everyone_welcome_to_see_you_here_in_the_process_automation_course': '../reference/S-IPA-Workshop/workshop3/VisualAutomation/KIE-Loan-Applicaiton-VA-Serverless/VA-KIE-Loan-Applicaiton.txt'
+      '#apply_loan': '../reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/VA-KIE-Loan-Application.txt'
+    , '#ocr_invoice': '../reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/VA-KIE-Loan-Application.txt'
+    , '#check_Application': '../reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/VA-KIE-Loan-Application.txt'
+    , '#hi_everyone_welcome_to_see_you_here_in_the_process_automation_course': '../reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/VA-KIE-Loan-Application.txt'
 }
 
 

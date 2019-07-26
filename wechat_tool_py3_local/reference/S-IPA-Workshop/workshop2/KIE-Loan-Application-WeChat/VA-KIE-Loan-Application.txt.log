@@ -1,6 +1,6 @@
 [starting sikuli process]
 
-START - automation started - Fri Jul 26 2019 16:14:08 GMT+0800 (+08)
+START - automation started - Fri Jul 26 2019 17:21:01 GMT+0800 (+08)
 
 click /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-desktop.png
 wait 1 seconds
@@ -57,5 +57,5 @@ click /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/referen
 wait 1 seconds
 snap /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png to /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page120.png
 
-FINISH - automation finished - 305.6s
+FINISH - automation finished - 262.1s
 

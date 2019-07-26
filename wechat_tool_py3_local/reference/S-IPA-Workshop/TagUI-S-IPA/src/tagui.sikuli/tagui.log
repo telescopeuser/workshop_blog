@@ -80,11 +80,11 @@ tagui.sikuli
 [debug] Image: loaded: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-desktop.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-desktop.png)
 [debug] Image: cached: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-desktop.png (9 KB) (# 1 KB 9 -- 0 % of 64 MB)
 [debug] Region: exists: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-desktop.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-desktop.png has appeared (M[3,145 58x58]@S(S(0)[0,0 1920x1080]) S:1.00 C:32,174 [1829 msec])
+[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-desktop.png has appeared (M[3,145 58x58]@S(S(0)[0,0 1920x1080]) S:1.00 C:32,174 [1998 msec])
 [debug] Image: reused: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-desktop.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-desktop.png)
 [debug] Region: wait: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-desktop.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-desktop.png appeared (M[3,145 58x58]@S(S(0)[0,0 1920x1080]) S:1.00 C:32,174 [913 msec])
-[debug] CLICK on L(32,174)@S(0)[0,0 1920x1080] (557 msec)
+[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-desktop.png appeared (M[3,145 58x58]@S(S(0)[0,0 1920x1080]) S:1.00 C:32,174 [648 msec])
+[debug] CLICK on L(32,174)@S(0)[0,0 1920x1080] (591 msec)
 [tagui] OUTPUT - [1] SUCCESS
 
 [tagui] INPUT  - [2] snap /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png to /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page020.png
@@ -96,11 +96,11 @@ tagui.sikuli
 [debug] Image: loaded: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome.png)
 [debug] Image: cached: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome.png (10 KB) (# 2 KB 19 -- 0 % of 64 MB)
 [debug] Region: exists: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome.png has appeared (M[3,322 59x58]@S(S(0)[0,0 1920x1080]) S:0.85 C:32,351 [2295 msec])
+[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome.png has appeared (M[3,322 59x58]@S(S(0)[0,0 1920x1080]) S:1.00 C:32,351 [714 msec])
 [debug] Image: reused: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome.png)
 [debug] Region: wait: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome.png appeared (M[3,322 59x58]@S(S(0)[0,0 1920x1080]) S:0.85 C:32,351 [2183 msec])
-[debug] DOUBLE CLICK on L(32,351)@S(0)[0,0 1920x1080] (643 msec)
+[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome.png appeared (M[3,322 59x58]@S(S(0)[0,0 1920x1080]) S:1.00 C:32,351 [734 msec])
+[debug] DOUBLE CLICK on L(32,351)@S(0)[0,0 1920x1080] (600 msec)
 [tagui] OUTPUT - [3] SUCCESS
 
 [tagui] INPUT  - [4] snap /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png to /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page030.png
@@ -112,11 +112,12 @@ tagui.sikuli
 [debug] Image: loaded: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome-kie-wb.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome-kie-wb.png)
 [debug] Image: cached: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome-kie-wb.png (10 KB) (# 3 KB 30 -- 0 % of 64 MB)
 [debug] Region: exists: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome-kie-wb.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome-kie-wb.png has appeared (M[1166,82 82x33]@S(S(0)[0,0 1920x1080]) S:1.00 C:1207,98 [1962 msec])
+[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome-kie-wb.png has appeared (M[1095,82 82x33]@S(S(0)[0,0 1920x1080]) S:1.00 C:1136,98 [809 msec])
 [debug] Image: reused: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome-kie-wb.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome-kie-wb.png)
 [debug] Region: wait: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome-kie-wb.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome-kie-wb.png appeared (M[1166,82 82x33]@S(S(0)[0,0 1920x1080]) S:1.00 C:1207,98 [1823 msec])
-[debug] CLICK on L(1207,98)@S(0)[0,0 1920x1080] (564 msec)
+[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome-kie-wb.png appeared (M[1095,82 82x33]@S(S(0)[0,0 1920x1080]) S:1.00 C:1136,98 [1010 msec])
+[debug] Device: Mouse: moved externally: now (274,214) was (32,351) (mouseMovedResponse 0)
+[debug] CLICK on L(1136,98)@S(0)[0,0 1920x1080] (589 msec)
 [tagui] OUTPUT - [5] SUCCESS
 
 [tagui] INPUT  - [6] snap /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png to /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page040.png
@@ -148,12 +149,11 @@ tagui.sikuli
 [debug] Image: loaded: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu.png)
 [debug] Image: cached: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu.png (12 KB) (# 4 KB 43 -- 0 % of 64 MB)
 [debug] Region: exists: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu.png has appeared (M[268,124 72x61]@S(S(0)[0,0 1920x1080]) S:1.00 C:304,154 [5664 msec])
+[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu.png has appeared (M[268,124 72x61]@S(S(0)[0,0 1920x1080]) S:1.00 C:304,154 [654 msec])
 [debug] Image: reused: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu.png)
 [debug] Region: wait: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu.png appeared (M[268,124 72x61]@S(S(0)[0,0 1920x1080]) S:1.00 C:304,154 [837 msec])
-[debug] Device: Mouse: moved externally: now (23,631) was (1207,98) (mouseMovedResponse 0)
-[debug] CLICK on L(304,154)@S(0)[0,0 1920x1080] (567 msec)
+[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu.png appeared (M[268,124 72x61]@S(S(0)[0,0 1920x1080]) S:1.00 C:304,154 [728 msec])
+[debug] CLICK on L(304,154)@S(0)[0,0 1920x1080] (546 msec)
 [tagui] OUTPUT - [11] SUCCESS
 
 [tagui] INPUT  - [12] click /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances.png
@@ -161,11 +161,11 @@ tagui.sikuli
 [debug] Image: loaded: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances.png)
 [debug] Image: cached: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances.png (7 KB) (# 5 KB 50 -- 0 % of 64 MB)
 [debug] Region: exists: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances.png has appeared (M[544,289 111x22]@S(S(0)[0,0 1920x1080]) S:1.00 C:599,300 [762 msec])
+[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances.png has appeared (M[544,289 111x22]@S(S(0)[0,0 1920x1080]) S:1.00 C:599,300 [675 msec])
 [debug] Image: reused: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances.png)
 [debug] Region: wait: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances.png appeared (M[544,289 111x22]@S(S(0)[0,0 1920x1080]) S:1.00 C:599,300 [927 msec])
-[debug] CLICK on L(599,300)@S(0)[0,0 1920x1080] (557 msec)
+[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances.png appeared (M[544,289 111x22]@S(S(0)[0,0 1920x1080]) S:1.00 C:599,300 [786 msec])
+[debug] CLICK on L(599,300)@S(0)[0,0 1920x1080] (541 msec)
 [tagui] OUTPUT - [12] SUCCESS
 
 [tagui] INPUT  - [13] snap /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png to /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page070.png
@@ -177,11 +177,11 @@ tagui.sikuli
 [debug] Image: loaded: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance.png)
 [debug] Image: cached: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance.png (12 KB) (# 6 KB 63 -- 0 % of 64 MB)
 [debug] Region: exists: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance.png has appeared (M[1750,221 144x30]@S(S(0)[0,0 1920x1080]) S:1.00 C:1822,236 [999 msec])
+[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance.png has appeared (M[1750,221 144x30]@S(S(0)[0,0 1920x1080]) S:1.00 C:1822,236 [867 msec])
 [debug] Image: reused: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance.png)
 [debug] Region: wait: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance.png appeared (M[1750,221 144x30]@S(S(0)[0,0 1920x1080]) S:1.00 C:1822,236 [1126 msec])
-[debug] CLICK on L(1822,236)@S(0)[0,0 1920x1080] (600 msec)
+[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance.png appeared (M[1750,221 144x30]@S(S(0)[0,0 1920x1080]) S:1.00 C:1822,236 [970 msec])
+[debug] CLICK on L(1822,236)@S(0)[0,0 1920x1080] (551 msec)
 [tagui] OUTPUT - [14] SUCCESS
 
 [tagui] INPUT  - [15] click /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance-Start.png
@@ -189,11 +189,11 @@ tagui.sikuli
 [debug] Image: loaded: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance-Start.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance-Start.png)
 [debug] Image: cached: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance-Start.png (6 KB) (# 7 KB 69 -- 0 % of 64 MB)
 [debug] Region: exists: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance-Start.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance-Start.png has appeared (M[1362,305 68x31]@S(S(0)[0,0 1920x1080]) S:1.00 C:1396,320 [899 msec])
+[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance-Start.png has appeared (M[1362,305 68x31]@S(S(0)[0,0 1920x1080]) S:1.00 C:1396,320 [765 msec])
 [debug] Image: reused: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance-Start.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance-Start.png)
 [debug] Region: wait: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance-Start.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance-Start.png appeared (M[1362,305 68x31]@S(S(0)[0,0 1920x1080]) S:1.00 C:1396,320 [1159 msec])
-[debug] CLICK on L(1396,320)@S(0)[0,0 1920x1080] (581 msec)
+[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance-Start.png appeared (M[1362,305 68x31]@S(S(0)[0,0 1920x1080]) S:1.00 C:1396,320 [982 msec])
+[debug] CLICK on L(1396,320)@S(0)[0,0 1920x1080] (557 msec)
 [tagui] OUTPUT - [15] SUCCESS
 
 [tagui] INPUT  - [16] snap /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png to /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page080.png
@@ -205,11 +205,11 @@ tagui.sikuli
 [debug] Image: loaded: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-DownPayment.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-DownPayment.png)
 [debug] Image: cached: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-DownPayment.png (13 KB) (# 8 KB 82 -- 0 % of 64 MB)
 [debug] Region: exists: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-DownPayment.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-DownPayment.png has appeared (M[582,360 121x37]@S(S(0)[0,0 1920x1080]) S:1.00 C:642,378 [1055 msec])
+[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-DownPayment.png has appeared (M[582,360 121x37]@S(S(0)[0,0 1920x1080]) S:1.00 C:642,378 [868 msec])
 [debug] Image: reused: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-DownPayment.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-DownPayment.png)
 [debug] Region: wait: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-DownPayment.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-DownPayment.png appeared (M[582,360 121x37]@S(S(0)[0,0 1920x1080]) S:1.00 C:642,378 [983 msec])
-[debug] CLICK on L(642,378)@S(0)[0,0 1920x1080] (545 msec)
+[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-DownPayment.png appeared (M[582,360 121x37]@S(S(0)[0,0 1920x1080]) S:1.00 C:642,378 [746 msec])
+[debug] CLICK on L(642,378)@S(0)[0,0 1920x1080] (579 msec)
 [tagui] OUTPUT - [17] SUCCESS
 
 [tagui] INPUT  - [18] type /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png as 50000
@@ -223,11 +223,11 @@ tagui.sikuli
 [debug] Image: loaded: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-YearsOfAmortization.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-YearsOfAmortization.png)
 [debug] Image: cached: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-YearsOfAmortization.png (15 KB) (# 9 KB 98 -- 0 % of 64 MB)
 [debug] Region: exists: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-YearsOfAmortization.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-YearsOfAmortization.png has appeared (M[980,360 144x37]@S(S(0)[0,0 1920x1080]) S:1.00 C:1052,378 [1154 msec])
+[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-YearsOfAmortization.png has appeared (M[980,360 144x37]@S(S(0)[0,0 1920x1080]) S:1.00 C:1052,378 [1127 msec])
 [debug] Image: reused: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-YearsOfAmortization.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-YearsOfAmortization.png)
 [debug] Region: wait: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-YearsOfAmortization.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-YearsOfAmortization.png appeared (M[980,360 144x37]@S(S(0)[0,0 1920x1080]) S:1.00 C:1052,378 [908 msec])
-[debug] CLICK on L(1052,378)@S(0)[0,0 1920x1080] (584 msec)
+[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-YearsOfAmortization.png appeared (M[980,360 144x37]@S(S(0)[0,0 1920x1080]) S:1.00 C:1052,378 [1075 msec])
+[debug] CLICK on L(1052,378)@S(0)[0,0 1920x1080] (553 msec)
 [tagui] OUTPUT - [19] SUCCESS
 
 [tagui] INPUT  - [20] type /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png as 20
@@ -241,11 +241,11 @@ tagui.sikuli
 [debug] Image: loaded: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-ApplicantName.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-ApplicantName.png)
 [debug] Image: cached: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-ApplicantName.png (9 KB) (# 10 KB 107 -- 0 % of 64 MB)
 [debug] Region: exists: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-ApplicantName.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-ApplicantName.png has appeared (M[582,479 96x34]@S(S(0)[0,0 1920x1080]) S:1.00 C:630,496 [904 msec])
+[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-ApplicantName.png has appeared (M[582,479 96x34]@S(S(0)[0,0 1920x1080]) S:1.00 C:630,496 [583 msec])
 [debug] Image: reused: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-ApplicantName.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-ApplicantName.png)
 [debug] Region: wait: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-ApplicantName.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-ApplicantName.png appeared (M[582,479 96x34]@S(S(0)[0,0 1920x1080]) S:1.00 C:630,496 [1116 msec])
-[debug] CLICK on L(630,496)@S(0)[0,0 1920x1080] (541 msec)
+[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-ApplicantName.png appeared (M[582,479 96x34]@S(S(0)[0,0 1920x1080]) S:1.00 C:630,496 [834 msec])
+[debug] CLICK on L(630,496)@S(0)[0,0 1920x1080] (566 msec)
 [tagui] OUTPUT - [21] SUCCESS
 
 [tagui] INPUT  - [22] type /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png as Sam GU Zhan
@@ -259,11 +259,11 @@ tagui.sikuli
 [debug] Image: loaded: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-ApplicantAnnualIncome.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-ApplicantAnnualIncome.png)
 [debug] Image: cached: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-ApplicantAnnualIncome.png (12 KB) (# 11 KB 119 -- 0 % of 64 MB)
 [debug] Region: exists: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-ApplicantAnnualIncome.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-ApplicantAnnualIncome.png has appeared (M[581,545 112x37]@S(S(0)[0,0 1920x1080]) S:1.00 C:637,563 [823 msec])
+[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-ApplicantAnnualIncome.png has appeared (M[581,545 112x37]@S(S(0)[0,0 1920x1080]) S:1.00 C:637,563 [922 msec])
 [debug] Image: reused: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-ApplicantAnnualIncome.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-ApplicantAnnualIncome.png)
 [debug] Region: wait: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-ApplicantAnnualIncome.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-ApplicantAnnualIncome.png appeared (M[581,545 112x37]@S(S(0)[0,0 1920x1080]) S:1.00 C:637,563 [1696 msec])
-[debug] CLICK on L(637,563)@S(0)[0,0 1920x1080] (545 msec)
+[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-ApplicantAnnualIncome.png appeared (M[581,545 112x37]@S(S(0)[0,0 1920x1080]) S:1.00 C:637,563 [997 msec])
+[debug] CLICK on L(637,563)@S(0)[0,0 1920x1080] (558 msec)
 [tagui] OUTPUT - [23] SUCCESS
 
 [tagui] INPUT  - [24] type /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png as 50000
@@ -281,11 +281,11 @@ tagui.sikuli
 [debug] Image: loaded: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyAge.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyAge.png)
 [debug] Image: cached: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyAge.png (11 KB) (# 12 KB 131 -- 0 % of 64 MB)
 [debug] Region: exists: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyAge.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyAge.png has appeared (M[583,732 120x34]@S(S(0)[0,0 1920x1080]) S:1.00 C:643,749 [1050 msec])
+[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyAge.png has appeared (M[583,732 120x34]@S(S(0)[0,0 1920x1080]) S:1.00 C:643,749 [868 msec])
 [debug] Image: reused: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyAge.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyAge.png)
 [debug] Region: wait: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyAge.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyAge.png appeared (M[583,732 120x34]@S(S(0)[0,0 1920x1080]) S:1.00 C:643,749 [1068 msec])
-[debug] CLICK on L(643,749)@S(0)[0,0 1920x1080] (549 msec)
+[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyAge.png appeared (M[583,732 120x34]@S(S(0)[0,0 1920x1080]) S:1.00 C:643,749 [790 msec])
+[debug] CLICK on L(643,749)@S(0)[0,0 1920x1080] (559 msec)
 [tagui] OUTPUT - [26] SUCCESS
 
 [tagui] INPUT  - [27] type /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png as 3
@@ -299,11 +299,11 @@ tagui.sikuli
 [debug] Image: loaded: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyAddress.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyAddress.png)
 [debug] Image: cached: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyAddress.png (13 KB) (# 13 KB 145 -- 0 % of 64 MB)
 [debug] Region: exists: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyAddress.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyAddress.png has appeared (M[583,797 130x35]@S(S(0)[0,0 1920x1080]) S:1.00 C:648,814 [1460 msec])
+[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyAddress.png has appeared (M[583,797 130x35]@S(S(0)[0,0 1920x1080]) S:1.00 C:648,814 [691 msec])
 [debug] Image: reused: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyAddress.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyAddress.png)
 [debug] Region: wait: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyAddress.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyAddress.png appeared (M[583,797 130x35]@S(S(0)[0,0 1920x1080]) S:1.00 C:648,814 [1527 msec])
-[debug] CLICK on L(648,814)@S(0)[0,0 1920x1080] (583 msec)
+[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyAddress.png appeared (M[583,797 130x35]@S(S(0)[0,0 1920x1080]) S:1.00 C:648,814 [915 msec])
+[debug] CLICK on L(648,814)@S(0)[0,0 1920x1080] (562 msec)
 [tagui] OUTPUT - [28] SUCCESS
 
 [tagui] INPUT  - [29] type /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png as 25 Heng Mui Keng Terrace, Singapore 119615
@@ -317,11 +317,11 @@ tagui.sikuli
 [debug] Image: loaded: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyLocale.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyLocale.png)
 [debug] Image: cached: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyLocale.png (7 KB) (# 14 KB 152 -- 0 % of 64 MB)
 [debug] Region: exists: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyLocale.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyLocale.png has appeared (M[582,865 71x35]@S(S(0)[0,0 1920x1080]) S:1.00 C:617,882 [1174 msec])
+[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyLocale.png has appeared (M[582,865 71x35]@S(S(0)[0,0 1920x1080]) S:1.00 C:617,882 [713 msec])
 [debug] Image: reused: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyLocale.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyLocale.png)
 [debug] Region: wait: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyLocale.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyLocale.png appeared (M[582,865 71x35]@S(S(0)[0,0 1920x1080]) S:1.00 C:617,882 [1050 msec])
-[debug] CLICK on L(617,882)@S(0)[0,0 1920x1080] (548 msec)
+[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertyLocale.png appeared (M[582,865 71x35]@S(S(0)[0,0 1920x1080]) S:1.00 C:617,882 [849 msec])
+[debug] CLICK on L(617,882)@S(0)[0,0 1920x1080] (577 msec)
 [tagui] OUTPUT - [30] SUCCESS
 
 [tagui] INPUT  - [31] type /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png as URBAN
@@ -335,11 +335,11 @@ tagui.sikuli
 [debug] Image: loaded: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertySalePrice.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertySalePrice.png)
 [debug] Image: cached: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertySalePrice.png (8 KB) (# 15 KB 160 -- 0 % of 64 MB)
 [debug] Region: exists: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertySalePrice.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertySalePrice.png has appeared (M[583,932 82x35]@S(S(0)[0,0 1920x1080]) S:1.00 C:624,949 [1244 msec])
+[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertySalePrice.png has appeared (M[583,932 82x35]@S(S(0)[0,0 1920x1080]) S:1.00 C:624,949 [1680 msec])
 [debug] Image: reused: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertySalePrice.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertySalePrice.png)
 [debug] Region: wait: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertySalePrice.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertySalePrice.png appeared (M[583,932 82x35]@S(S(0)[0,0 1920x1080]) S:1.00 C:624,949 [1694 msec])
-[debug] CLICK on L(624,949)@S(0)[0,0 1920x1080] (539 msec)
+[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-PropertySalePrice.png appeared (M[583,932 82x35]@S(S(0)[0,0 1920x1080]) S:1.00 C:624,949 [978 msec])
+[debug] CLICK on L(624,949)@S(0)[0,0 1920x1080] (567 msec)
 [tagui] OUTPUT - [32] SUCCESS
 
 [tagui] INPUT  - [33] type /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png as 250000
@@ -353,11 +353,11 @@ tagui.sikuli
 [debug] Image: loaded: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-Submit.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-Submit.png)
 [debug] Image: cached: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-Submit.png (5 KB) (# 16 KB 166 -- 0 % of 64 MB)
 [debug] Region: exists: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-Submit.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-Submit.png has appeared (M[1357,1052 67x28]@S(S(0)[0,0 1920x1080]) S:1.00 C:1390,1066 [924 msec])
+[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-Submit.png has appeared (M[1357,1052 67x28]@S(S(0)[0,0 1920x1080]) S:1.00 C:1390,1066 [824 msec])
 [debug] Image: reused: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-Submit.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-Submit.png)
 [debug] Region: wait: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-Submit.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-Submit.png appeared (M[1357,1052 67x28]@S(S(0)[0,0 1920x1080]) S:1.00 C:1390,1066 [904 msec])
-[debug] CLICK on L(1390,1066)@S(0)[0,0 1920x1080] (583 msec)
+[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-loan-form-Submit.png appeared (M[1357,1052 67x28]@S(S(0)[0,0 1920x1080]) S:1.00 C:1390,1066 [852 msec])
+[debug] CLICK on L(1390,1066)@S(0)[0,0 1920x1080] (564 msec)
 [tagui] OUTPUT - [34] SUCCESS
 
 [tagui] INPUT  - [35] snap /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png to /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page100.png
@@ -368,11 +368,11 @@ tagui.sikuli
 [tagui] ACTION - click /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance.png
 [debug] Image: reused: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance.png)
 [debug] Region: exists: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance.png has appeared (M[1750,221 144x30]@S(S(0)[0,0 1920x1080]) S:1.00 C:1822,236 [711 msec])
+[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance.png has appeared (M[1750,221 144x30]@S(S(0)[0,0 1920x1080]) S:1.00 C:1822,236 [801 msec])
 [debug] Image: reused: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance.png)
 [debug] Region: wait: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance.png appeared (M[1750,221 144x30]@S(S(0)[0,0 1920x1080]) S:1.00 C:1822,236 [856 msec])
-[debug] CLICK on L(1822,236)@S(0)[0,0 1920x1080] (561 msec)
+[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance.png appeared (M[1750,221 144x30]@S(S(0)[0,0 1920x1080]) S:1.00 C:1822,236 [893 msec])
+[debug] CLICK on L(1822,236)@S(0)[0,0 1920x1080] (597 msec)
 [tagui] OUTPUT - [36] SUCCESS
 
 [tagui] INPUT  - [37] click /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-x-cancel.png
@@ -380,11 +380,11 @@ tagui.sikuli
 [debug] Image: loaded: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-x-cancel.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-x-cancel.png)
 [debug] Image: cached: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-x-cancel.png (5 KB) (# 17 KB 171 -- 0 % of 64 MB)
 [debug] Region: exists: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-x-cancel.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-x-cancel.png has appeared (M[1398,145 45x43]@S(S(0)[0,0 1920x1080]) S:1.00 C:1420,166 [744 msec])
+[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-x-cancel.png has appeared (M[1398,145 45x43]@S(S(0)[0,0 1920x1080]) S:1.00 C:1420,166 [599 msec])
 [debug] Image: reused: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-x-cancel.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-x-cancel.png)
 [debug] Region: wait: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-x-cancel.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-x-cancel.png appeared (M[1398,145 45x43]@S(S(0)[0,0 1920x1080]) S:1.00 C:1420,166 [816 msec])
-[debug] CLICK on L(1420,166)@S(0)[0,0 1920x1080] (579 msec)
+[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-x-cancel.png appeared (M[1398,145 45x43]@S(S(0)[0,0 1920x1080]) S:1.00 C:1420,166 [617 msec])
+[debug] CLICK on L(1420,166)@S(0)[0,0 1920x1080] (558 msec)
 [tagui] OUTPUT - [37] SUCCESS
 
 [tagui] INPUT  - [38] click /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-UserProfile.png
@@ -392,11 +392,11 @@ tagui.sikuli
 [debug] Image: loaded: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-UserProfile.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-UserProfile.png)
 [debug] Image: cached: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-UserProfile.png (10 KB) (# 18 KB 182 -- 0 % of 64 MB)
 [debug] Region: exists: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-UserProfile.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-UserProfile.png has appeared (M[1812,128 101x37]@S(S(0)[0,0 1920x1080]) S:1.00 C:1862,146 [719 msec])
+[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-UserProfile.png has appeared (M[1812,128 101x37]@S(S(0)[0,0 1920x1080]) S:1.00 C:1862,146 [695 msec])
 [debug] Image: reused: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-UserProfile.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-UserProfile.png)
 [debug] Region: wait: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-UserProfile.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-UserProfile.png appeared (M[1812,128 101x37]@S(S(0)[0,0 1920x1080]) S:1.00 C:1862,146 [843 msec])
-[debug] CLICK on L(1862,146)@S(0)[0,0 1920x1080] (545 msec)
+[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-UserProfile.png appeared (M[1812,128 101x37]@S(S(0)[0,0 1920x1080]) S:1.00 C:1862,146 [695 msec])
+[debug] CLICK on L(1862,146)@S(0)[0,0 1920x1080] (553 msec)
 [tagui] OUTPUT - [38] SUCCESS
 
 [tagui] INPUT  - [39] click /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-UserProfile-LogOut.png
@@ -404,11 +404,11 @@ tagui.sikuli
 [debug] Image: loaded: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-UserProfile-LogOut.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-UserProfile-LogOut.png)
 [debug] Image: cached: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-UserProfile-LogOut.png (3 KB) (# 19 KB 186 -- 0 % of 64 MB)
 [debug] Region: exists: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-UserProfile-LogOut.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-UserProfile-LogOut.png has appeared (M[1766,209 57x21]@S(S(0)[0,0 1920x1080]) S:1.00 C:1794,219 [749 msec])
+[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-UserProfile-LogOut.png has appeared (M[1766,209 57x21]@S(S(0)[0,0 1920x1080]) S:1.00 C:1794,219 [709 msec])
 [debug] Image: reused: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-UserProfile-LogOut.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-UserProfile-LogOut.png)
 [debug] Region: wait: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-UserProfile-LogOut.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-UserProfile-LogOut.png appeared (M[1766,209 57x21]@S(S(0)[0,0 1920x1080]) S:1.00 C:1794,219 [805 msec])
-[debug] CLICK on L(1794,219)@S(0)[0,0 1920x1080] (556 msec)
+[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-UserProfile-LogOut.png appeared (M[1766,209 57x21]@S(S(0)[0,0 1920x1080]) S:1.00 C:1794,219 [650 msec])
+[debug] CLICK on L(1794,219)@S(0)[0,0 1920x1080] (539 msec)
 [tagui] OUTPUT - [39] SUCCESS
 
 [tagui] INPUT  - [40] snap /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png to /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page110.png
@@ -420,11 +420,11 @@ tagui.sikuli
 [debug] Image: loaded: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-ubuntu-close.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-ubuntu-close.png)
 [debug] Image: cached: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-ubuntu-close.png (1 KB) (# 20 KB 187 -- 0 % of 64 MB)
 [debug] Region: exists: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-ubuntu-close.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-ubuntu-close.png has appeared (M[3,1 21x21]@S(S(0)[0,0 1920x1080]) S:1.00 C:13,11 [996 msec])
+[debug] Region: exists: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-ubuntu-close.png has appeared (M[3,1 21x21]@S(S(0)[0,0 1920x1080]) S:1.00 C:13,11 [827 msec])
 [debug] Image: reused: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-ubuntu-close.png (file:/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-ubuntu-close.png)
 [debug] Region: wait: waiting 10.0 secs for /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-ubuntu-close.png to appear in S(0)[0,0 1920x1080]
-[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-ubuntu-close.png appeared (M[3,1 21x21]@S(S(0)[0,0 1920x1080]) S:1.00 C:13,11 [890 msec])
-[debug] CLICK on L(13,11)@S(0)[0,0 1920x1080] (596 msec)
+[debug] Region: wait: /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-ubuntu-close.png appeared (M[3,1 21x21]@S(S(0)[0,0 1920x1080]) S:1.00 C:13,11 [570 msec])
+[debug] CLICK on L(13,11)@S(0)[0,0 1920x1080] (562 msec)
 [tagui] OUTPUT - [41] SUCCESS
 
 [tagui] INPUT  - [42] snap /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png to /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page120.png
@@ -434,4 +434,4 @@ tagui.sikuli
 [tagui] FINISH - stopped listening
 [debug] RunTimeIDE: final cleanup
 [debug] FileManager: deleteFileOrFolder:
-/tmp/Sikulix_143013716
+/tmp/Sikulix_771458362
