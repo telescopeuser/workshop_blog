@@ -27,7 +27,7 @@ snap page.png to page020.png
 // Start Chrome
 // =====================================
 dclick png-iss-vm-chrome.png
-wait 5 seconds
+wait 15 seconds
 
 // =====================================
 snap page.png to page030.png
@@ -37,7 +37,7 @@ snap page.png to page030.png
 // Start KIE jBPM workbench: loan application client web portal
 // =====================================
 click png-iss-vm-chrome-kie-wb.png
-wait 3 seconds
+wait 20 seconds
 
 // =====================================
 snap page.png to page040.png
@@ -47,7 +47,7 @@ snap page.png to page040.png
 // Login with staff username & password
 // =====================================
 vision type("sales-rep" + Key.TAB)
-// wait 1 seconds
+// wait 2 seconds
 
 // =====================================
 snap page.png to page050.png
@@ -56,7 +56,7 @@ snap page.png to page050.png
 // =====================================
 vision type("sales-rep" + Key.ENTER)
 // =====================================
-wait 15 seconds
+wait 25 seconds
 
 // =====================================
 snap page.png to page060.png
@@ -66,13 +66,13 @@ snap page.png to page060.png
 // KIE: click "Menu"
 // =====================================
 click png-kie-Menu.png
-//wait 1 seconds
+//wait 8 seconds
 
 // =====================================
 // KIE: click "Process Instances"
 // =====================================
 click png-kie-Menu-ProcessInstances.png
-wait 2 seconds
+wait 8 seconds
 
 // =====================================
 snap page.png to page070.png
@@ -82,14 +82,14 @@ snap page.png to page070.png
 // KIE: click "New Process Instance"
 // =====================================
 click png-kie-Menu-ProcessInstances-NewProcessInstance.png
-wait 1 seconds
+wait 8 seconds
 
 
 // =====================================
 // KIE: click "Start (New Process Instance)"
 // =====================================
 click png-kie-Menu-ProcessInstances-NewProcessInstance-Start.png
-wait 1 seconds
+wait 4 seconds
 
 
 // =====================================

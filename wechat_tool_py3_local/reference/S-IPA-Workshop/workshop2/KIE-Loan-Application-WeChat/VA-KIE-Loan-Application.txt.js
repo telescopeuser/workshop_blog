@@ -1358,8 +1358,8 @@ if (!sikuli_step('dclick /media/sf_vm_shared_folder/git/workshop_blog/wechat_too
 this.echo('ERROR - cannot find image file /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome.png').exit(); else
 this.echo('ERROR - cannot find /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome.png on screen').exit(); this.wait(0);}});
 
-casper.then(function() {techo('wait 5 seconds');});
-casper.wait(5000, function() {});
+casper.then(function() {techo('wait 15 seconds');});
+casper.wait(15000, function() {});
 
 // =====================================
 casper.then(function() {{techo('snap /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png to /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page030.png'); var fs = require('fs');
@@ -1376,8 +1376,8 @@ if (!sikuli_step('click /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool
 this.echo('ERROR - cannot find image file /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome-kie-wb.png').exit(); else
 this.echo('ERROR - cannot find /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-iss-vm-chrome-kie-wb.png on screen').exit(); this.wait(0);}});
 
-casper.then(function() {techo('wait 3 seconds');});
-casper.wait(3000, function() {});
+casper.then(function() {techo('wait 20 seconds');});
+casper.wait(20000, function() {});
 
 // =====================================
 casper.then(function() {{techo('snap /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png to /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page040.png'); var fs = require('fs');
@@ -1394,7 +1394,7 @@ if (!sikuli_step('vision type("sales-rep" + Key.TAB)')) if (!fs.exists('for visi
 this.echo('ERROR - cannot find image file for vision step').exit(); else
 this.echo('ERROR - cannot find for vision step on screen').exit(); this.wait(0);}});
 
-// wait 1 seconds
+// wait 2 seconds
 // =====================================
 casper.then(function() {{techo('snap /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png to /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page050.png'); var fs = require('fs');
 if (!sikuli_step('snap /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png to /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page050.png')) if (!fs.exists('/media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png'))
@@ -1409,8 +1409,8 @@ this.echo('ERROR - cannot find image file for vision step').exit(); else
 this.echo('ERROR - cannot find for vision step on screen').exit(); this.wait(0);}});
 
 // =====================================
-casper.then(function() {techo('wait 15 seconds');});
-casper.wait(15000, function() {});
+casper.then(function() {techo('wait 25 seconds');});
+casper.wait(25000, function() {});
 
 // =====================================
 casper.then(function() {{techo('snap /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png to /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page060.png'); var fs = require('fs');
@@ -1427,7 +1427,7 @@ if (!sikuli_step('click /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool
 this.echo('ERROR - cannot find image file /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu.png').exit(); else
 this.echo('ERROR - cannot find /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu.png on screen').exit(); this.wait(0);}});
 
-//wait 1 seconds
+//wait 8 seconds
 // =====================================
 // KIE: click "Process Instances"
 // =====================================
@@ -1436,8 +1436,8 @@ if (!sikuli_step('click /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool
 this.echo('ERROR - cannot find image file /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances.png').exit(); else
 this.echo('ERROR - cannot find /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances.png on screen').exit(); this.wait(0);}});
 
-casper.then(function() {techo('wait 2 seconds');});
-casper.wait(2000, function() {});
+casper.then(function() {techo('wait 8 seconds');});
+casper.wait(8000, function() {});
 
 // =====================================
 casper.then(function() {{techo('snap /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png to /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page070.png'); var fs = require('fs');
@@ -1454,8 +1454,8 @@ if (!sikuli_step('click /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool
 this.echo('ERROR - cannot find image file /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance.png').exit(); else
 this.echo('ERROR - cannot find /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance.png on screen').exit(); this.wait(0);}});
 
-casper.then(function() {techo('wait 1 seconds');});
-casper.wait(1000, function() {});
+casper.then(function() {techo('wait 8 seconds');});
+casper.wait(8000, function() {});
 
 // =====================================
 // KIE: click "Start (New Process Instance)"
@@ -1465,8 +1465,8 @@ if (!sikuli_step('click /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool
 this.echo('ERROR - cannot find image file /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance-Start.png').exit(); else
 this.echo('ERROR - cannot find /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/png-kie-Menu-ProcessInstances-NewProcessInstance-Start.png on screen').exit(); this.wait(0);}});
 
-casper.then(function() {techo('wait 1 seconds');});
-casper.wait(1000, function() {});
+casper.then(function() {techo('wait 4 seconds');});
+casper.wait(4000, function() {});
 
 // =====================================
 casper.then(function() {{techo('snap /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page.png to /media/sf_vm_shared_folder/git/workshop_blog/wechat_tool_py3_local/reference/S-IPA-Workshop/workshop2/KIE-Loan-Application-WeChat/page080.png'); var fs = require('fs');
